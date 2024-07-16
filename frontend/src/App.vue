@@ -10,6 +10,14 @@ import { RouterLink, RouterView } from 'vue-router'
           <RouterLink to="/">All</RouterLink>
         </li>
         <li>
+          By Source
+          <ul>
+            <li>
+              <RouterLink to="/by-source/wotc-official-5e/">WotC Published 5e</RouterLink>
+            </li>
+          </ul>
+        </li>
+        <li>
           By Class
           <ul>
             <li>
