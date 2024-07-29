@@ -1,0 +1,19 @@
+{
+  "name": "spellcards",
+  "version": "1.0.0",
+  "description": "Generate spell cards given source data in a specified JSON schema.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arlobelshee/spellcards.git"
+  },
+  "author": "Arlo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/arlobelshee/spellcards/issues"
+  },
+  "homepage": "https://github.com/arlobelshee/spellcards#readme"
+}
