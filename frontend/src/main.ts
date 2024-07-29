@@ -32,7 +32,10 @@ const preset = definePreset(Lara, {
 app.use(PrimeVue, {
   theme: {
     preset,
-    options: { cssLayer: true }
+    options: {
+      darkModeSelector: '.dark-mode',
+      cssLayer: { name: 'primevue', order: 'reset, primevue' }
+    }
   }
 })
 
