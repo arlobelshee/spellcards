@@ -4,8 +4,8 @@ import { defineProps } from "vue";
 import all_spells from "@/assets/all_spells.json"
 
 const props = defineProps<{ category: string }>();
-const file_path = `@/assets/${props.category}/${useRoute().params.slug}.json`;
-const sheet_data = 'await import(file_path)';
+const file_path = `../assets/${props.category}/${useRoute().params.slug}.json`;
+const sheet_data = await import(`../assets/${props.category}/${useRoute().params.slug}.json`);
 </script>
 
 <template>
