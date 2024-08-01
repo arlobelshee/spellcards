@@ -13,7 +13,7 @@ import { RouterLink, RouterView } from 'vue-router'
           By Source
           <ul>
             <li>
-              <RouterLink to="/by-source/wotc-official-5e/">WotC Published 5e</RouterLink>
+              <RouterLink to="/by-source/wotc-official-5e">WotC Published 5e</RouterLink>
             </li>
           </ul>
         </li>
@@ -21,7 +21,7 @@ import { RouterLink, RouterView } from 'vue-router'
           By Class
           <ul>
             <li>
-              <RouterLink to="/by-class/wizard/">Wizard</RouterLink>
+              <RouterLink to="/by-class/wizard">Wizard</RouterLink>
             </li>
           </ul>
         </li>
@@ -29,7 +29,7 @@ import { RouterLink, RouterView } from 'vue-router'
           Characters
           <ul>
             <li>
-              <RouterLink to="/characters/fedele-pons-civitas/">Fedele Pons Civitas</RouterLink>
+              <RouterLink to="/characters/fedele-pons-civitas">Fedele Pons Civitas</RouterLink>
             </li>
           </ul>
         </li>
