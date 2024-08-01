@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import CardSheetView from '@/views/CardSheetView.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,17 +13,17 @@ const router = createRouter({
     {
       path: '/by-source/:slug',
       name: 'by-source',
-      component: HomeView
+      component: CardSheetView
     },
     {
       path: '/by-class/:slug',
       name: 'by-class',
-      component: HomeView
+      component: CardSheetView
     },
     {
       path: '/character/:slug',
       name: 'character',
-      component: HomeView
+      component: CardSheetView
     }
   ]
 })
