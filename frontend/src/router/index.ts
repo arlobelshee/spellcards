@@ -13,17 +13,20 @@ const router = createRouter({
     {
       path: '/by-source/:slug',
       name: 'by-source',
-      component: CardSheetView
+      component: CardSheetView,
+      props: { category: 'sources' }
     },
     {
       path: '/by-class/:slug',
       name: 'by-class',
-      component: CardSheetView
+      component: CardSheetView,
+      props: { category: 'classes' }
     },
     {
-      path: '/character/:slug',
+      path: '/characters/:slug',
       name: 'character',
-      component: CardSheetView
+      component: CardSheetView,
+      props: { category: 'characters' }
     }
   ]
 })
