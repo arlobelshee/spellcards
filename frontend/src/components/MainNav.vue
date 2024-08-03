@@ -29,7 +29,7 @@ import { RouterLink } from 'vue-router'
                     Characters
                     <ul>
                         <li>
-                            <RouterLink to="/characters/fedele-pons-civitas">Fedele Pons Civitas</RouterLink>
+                            <RouterLink to="/characters/fedele">Fedele Pons Civitas</RouterLink>
                         </li>
                     </ul>
                 </li>

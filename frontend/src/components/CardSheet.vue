@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import { useRoute } from "vue-router";
-import { defineProps } from "vue";
+import { ref, watchEffect } from "vue";
 import all_spells from "@/assets/all_spells.json"
 
 const props = defineProps<{ category: string }>();
-const sheet_data = await import(`../assets/${props.category}/${useRoute().params.slug}.json`);
+const sheet_data = ref({});
+watchEffect(async () => sheet_data.value = await import(`../assets/${props.category}/${useRoute().params.slug}.json`));
 </script>
 
 <template>

@@ -2,6 +2,11 @@
     "version": 1,
     "kind": "character",
     "name": "Fedele Pons Civitas",
-    "spells": [],
-    "already_printed": []
+    "spells": [
+        "0-guidance",
+        "0-firebolt"
+    ],
+    "already_printed": [
+        "0-guidance"
+    ]
 }
