@@ -1,0 +1,13 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.requireConfig": true,
+  "prettier.endOfLine": "crlf",
+  "prettier.printWidth": 120,
+  "prettier.trailingComma": "all",
+  "prettier.useTabs": true,
+  "prettier.vueIndentScriptAndStyle": true
+}

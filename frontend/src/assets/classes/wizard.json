@@ -2,5 +2,8 @@
     "version": 1,
     "kind": "class",
     "name": "Wizard",
-    "spells": []
+    "spells": [
+        "0-firebolt",
+        "1-mm"
+    ]
 }

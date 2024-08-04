@@ -1,88 +1,48 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import MainNav from './components/MainNav.vue'
 </script>
 
 <template>
-  <header>
-    <nav>
-      <ul>
-        <li>
-          <RouterLink to="/">All</RouterLink>
-        </li>
-        <li>
-          By Source
-          <ul>
-            <li>
-              <RouterLink to="/by-source/wotc-official-5e/">WotC Published 5e</RouterLink>
-            </li>
-          </ul>
-        </li>
-        <li>
-          By Class
-          <ul>
-            <li>
-              <RouterLink to="/by-class/wizard/">Wizard</RouterLink>
-            </li>
-          </ul>
-        </li>
-        <li>
-          Characters
-          <ul>
-            <li>
-              <RouterLink to="/characters/fedele-pons-civitas/">Fedele Pons Civitas</RouterLink>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  <RouterView />
+  <MainNav class="header" />
+  <RouterView class="main" />
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-  max-height: 100vh;
+<style>
+#app {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid: "header header" 70px "main sidebar" auto / auto 20rem;
+  min-height: 100vh;
 }
 
-nav {
-  width: 100%;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 2rem;
+.header {
+  grid-area: header;
 }
 
-nav a.router-link-exact-active {
-  color: var(--color-text);
+.main {
+  grid-area: main;
 }
 
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
-}
-nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+.sidebar {
+  grid-area: sidebar;
 }
 
-nav a:first-of-type {
-  border: 0;
-}
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
+@media print {
+  #app {
+    grid: "main" auto / auto;
   }
 
-  nav {
-    text-align: left;
-    margin-left: -1rem;
-    font-size: 1rem;
+  #__vue-devtools-container__ * {
+    display: none !important;
+  }
 
-    padding: 1rem 0;
-    margin-top: 1rem;
+  .header {
+    display: none;
+  }
+
+  .sidebar {
+    display: none;
   }
 }
 </style>
