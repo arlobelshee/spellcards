@@ -7,6 +7,10 @@ const AtHigherLevels = "MARKER_AT_HIGHER_LEVELS";
 async function import_everything(args: string[]) {
 	const script = await fs.readFile(args[0], { encoding: "utf8" });
 	const input = get_interesting_raw_data(script);
+	merge_into_spells_data(input);
+}
+
+function merge_into_spells_data(input: { spells: {}; sources: {} }) {
 	console.log(input, Object.keys(input.spells).length);
 }
 
