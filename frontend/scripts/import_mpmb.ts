@@ -11,6 +11,13 @@ type DestSpell = {
 	description: { short: string; base: string; upcast?: string; cantrip?: string };
 	sources: [string, number][];
 };
+type DestSource = {
+	id: string;
+	name: string;
+	abbreviation: string;
+	abbreviationSpellsheet: string;
+	url?: string;
+};
 type AllSpellsFileContents = { version: number; kind: "spell-list"; spells: Record<string, DestSpell> };
 type FilterFileKind = "character" | "source" | "class";
 type SpellFilterFileContents = {
@@ -28,7 +35,7 @@ async function import_everything(args: string[]) {
 	const dest_folder = args[1];
 	const script = await fs.readFile(args[0], { encoding: "utf8" });
 	const input = get_interesting_raw_data(script);
-	const imported_data = parse_imported_spells(input);
+	const imported_data = get_interesting_data(input);
 	const file_writes = [merge_into_spells_data(imported_data.spells, path.join(dest_folder, "all_spells.json"))];
 	await Promise.all(file_writes);
 	for (const spell_list of Object.entries(imported_data.by_source)) {
@@ -119,10 +126,11 @@ async function json_contents<T>(file_path: string): Promise<T> {
 	return JSON.parse(content);
 }
 
-function parse_imported_spells(input: { spells: Record<string, SourceSpell>; sources: {} }) {
+function get_interesting_data(input: { spells: Record<string, SourceSpell>; sources: {} }) {
 	const spells: Record<string, DestSpell> = {};
 	const by_class: Record<string, string[]> = {};
 	const by_source: Record<string, string[]> = {};
+	const sources: Record<string, DestSource> = {};
 	for (const new_spell of Object.entries(input.spells)) {
 		const [desc_base, desc_higher_levels] = new_spell[1].descriptionFull.split(AtHigherLevels, 2);
 		const imported_spell = {
@@ -149,7 +157,7 @@ function parse_imported_spells(input: { spells: Record<string, SourceSpell>; sou
 		}
 		spells[imported_spell.id] = imported_spell;
 	}
-	return { spells, by_class, by_source };
+	return { spells, by_class, by_source, sources };
 }
 
 function get_interesting_raw_data(script: string) {
