@@ -1,26 +1,26 @@
 {
     "version": 1,
     "kind": "spell-list",
-    "spells": [
-        {
+    "spells": {
+        "0-eld-blast": {
             "id": "0-eld-blast",
             "name": "Eldritch Blast",
             "level": 0
         },
-        {
+        "0-firebolt": {
             "id": "0-firebolt",
             "name": "Firebolt",
             "level": 0
         },
-        {
+        "0-guidance": {
             "id": "0-guidance",
             "name": "Guidance",
             "level": 0
         },
-        {
+        "1-mm": {
             "id": "1-mm",
             "name": "Magic Missile",
             "level": 1
         }
-    ]
+    }
 }
