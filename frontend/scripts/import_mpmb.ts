@@ -46,13 +46,8 @@ const KeysToKeepUnaltered = [
 type ImportedSpell = Omit<DestSpell, "id" | "description">;
 
 async function merge_into_spells_data(input: { spells: Record<string, SourceSpell>; sources: {} }, dest_path: string) {
-	let dest_data: AllSpellsFileContents = JSON.parse(await fs.readFile(dest_path, { encoding: "utf8" }));
-	if (!dest_data || dest_data.kind !== "spell-list" || dest_data.version !== 1) {
-		console.log("Invalid data found in", dest_path, "re-initializing it.");
-		dest_data = { version: 1, kind: "spell-list", spells: {} };
-	}
+	const imported_spells = {};
 	for (const new_spell of Object.entries(input.spells)) {
-		warn_if_exists("spell", dest_data.spells, new_spell[0]);
 		const [desc_base, desc_higher_levels] = new_spell[1].descriptionFull.split(AtHigherLevels, 2);
 		const imported_spell = {
 			...(Object.fromEntries(KeysToKeepUnaltered.map((key) => [key[1], new_spell[1][key[0]]])) as ImportedSpell),
@@ -64,16 +59,15 @@ async function merge_into_spells_data(input: { spells: Record<string, SourceSpel
 				cantrip: new_spell[1].descriptionCantripDie,
 			},
 		};
-		dest_data.spells[new_spell[0]] = imported_spell;
+		imported_spells[new_spell[0]] = imported_spell;
 	}
-
+	let dest_data: AllSpellsFileContents = JSON.parse(await fs.readFile(dest_path, { encoding: "utf8" }));
+	if (!dest_data || dest_data.kind !== "spell-list" || dest_data.version !== 1) {
+		console.log("Invalid data found in", dest_path, "re-initializing it.");
+		dest_data = { version: 1, kind: "spell-list", spells: {} };
+	}
+	Object.assign(dest_data.spells, imported_spells);
 	await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
-}
-
-function warn_if_exists(kind: string, data: Record<string, unknown>, id: string) {
-	if (Object.prototype.hasOwnProperty.call(data, id)) {
-		console.log(`WARNING: replacing ${kind} with ID ${id}`);
-	}
 }
 
 function get_interesting_raw_data(script: string) {
