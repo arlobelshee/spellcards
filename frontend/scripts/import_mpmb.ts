@@ -21,6 +21,7 @@ async function import_everything(args: string[]) {
 	const script = await fs.readFile(args[0], { encoding: "utf8" });
 	const input = get_interesting_raw_data(script);
 	await merge_into_spells_data(input, path.join(dest_folder, "all_spells.json"));
+	console.log("Import complete.");
 }
 
 type SourceSpell = {
@@ -40,13 +41,11 @@ const KeysToKeepUnaltered = [
 type ImportedSpell = Omit<DestSpell, "id" | "description">;
 
 async function merge_into_spells_data(input: { spells: Record<string, SourceSpell>; sources: {} }, dest_path: string) {
-	console.log(input, Object.keys(input.spells).length);
 	let dest_data: AllSpellsFileContents = JSON.parse(await fs.readFile(dest_path, { encoding: "utf8" }));
 	if (!dest_data || dest_data.kind !== "spell-list" || dest_data.version !== 1) {
 		console.log("Invalid data found in", dest_path, "re-initializing it.");
 		dest_data = { version: 1, kind: "spell-list", spells: {} };
 	}
-	console.log(dest_data);
 	for (const new_spell of Object.entries(input.spells)) {
 		warn_if_exists("spell", dest_data.spells, new_spell[0]);
 		const [desc_base, desc_higher_levels] = new_spell[1].descriptionFull.split(AtHigherLevels, 2);
@@ -61,7 +60,7 @@ async function merge_into_spells_data(input: { spells: Record<string, SourceSpel
 			},
 		};
 
-		console.log(JSON.stringify(dest_data, undefined, "\t"), Object.keys(dest_data.spells).length);
+		await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
 	}
 }
 
