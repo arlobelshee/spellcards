@@ -49,7 +49,7 @@ async function merge_into_spells_data(input: { spells: Record<string, SourceSpel
 		dest_data.spells[new_spell[0]] = {
 			...(Object.fromEntries(KeysToKeepUnaltered.map((key) => [key[1], new_spell[1][key[0]]])) as ImportedSpell),
 			id: new_spell[0],
-			description: { short: new_spell[1].description, base: desc_base.trim(), upcast: desc_higher_levels.trim() },
+			description: { short: new_spell[1].description, base: desc_base.trim(), upcast: desc_higher_levels?.trim() },
 		};
 		console.log(JSON.stringify(dest_data, undefined, "\t"), Object.keys(dest_data.spells).length);
 		console.log(
