@@ -9,6 +9,7 @@ type DestSpell = {
 	name: string;
 	name_short?: string;
 	description: { short: string; base: string; upcast?: string; cantrip?: string };
+	sources: [string, number][];
 };
 type AllSpellsFileContents = { version: number; kind: "spell-list"; spells: Record<string, DestSpell> };
 type SpellFilterFileContents = {
@@ -27,6 +28,8 @@ async function import_everything(args: string[]) {
 	const input = get_interesting_raw_data(script);
 	const imported_data = parse_imported_spells(input);
 	await merge_into_spells_data(imported_data.spells, path.join(dest_folder, "all_spells.json"));
+	console.log(imported_data.by_class);
+	console.log(imported_data.by_source);
 	console.log("Import complete.");
 }
 
@@ -71,8 +74,20 @@ function parse_imported_spells(input: { spells: Record<string, SourceSpell>; sou
 				upcast: desc_higher_levels?.trim(),
 				cantrip: new_spell[1].descriptionCantripDie,
 			},
+			sources:
+				new_spell[1].source.length === 2 && !Array.isArray(new_spell[1].source[0])
+					? [new_spell[1].source as [string, number]]
+					: (new_spell[1].source as [string, number][]),
 		};
-		spells[new_spell[0]] = imported_spell;
+		for (const target of new_spell[1].classes) {
+			if (by_class[target]) by_class[target].push(imported_spell.id);
+			else by_class[target] = [imported_spell.id];
+		}
+		for (const target of imported_spell.sources) {
+			if (by_source[target[0]]) by_source[target[0]].push(imported_spell.id);
+			else by_source[target[0]] = [imported_spell.id];
+		}
+		spells[imported_spell.id] = imported_spell;
 	}
 	return { spells, by_class, by_source };
 }
