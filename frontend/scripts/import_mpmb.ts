@@ -46,13 +46,12 @@ const KeysToKeepUnaltered = [
 type ImportedSpell = Omit<DestSpell, "id" | "description">;
 
 async function merge_into_spells_data(input: { spells: Record<string, SourceSpell>; sources: {} }, dest_path: string) {
-	const imported_spells = parse_imported_spells(input).spells;
 	let dest_data: AllSpellsFileContents = JSON.parse(await fs.readFile(dest_path, { encoding: "utf8" }));
 	if (!dest_data || dest_data.kind !== "spell-list" || dest_data.version !== 1) {
 		console.log("Invalid data found in", dest_path, "re-initializing it.");
 		dest_data = { version: 1, kind: "spell-list", spells: {} };
 	}
-	Object.assign(dest_data.spells, imported_spells);
+	Object.assign(dest_data.spells, parse_imported_spells(input).spells);
 	await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
 }
 
