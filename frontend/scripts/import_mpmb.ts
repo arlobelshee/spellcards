@@ -57,7 +57,9 @@ async function merge_into_spells_data(spells: Record<string, DestSpell>, dest_pa
 }
 
 function parse_imported_spells(input: { spells: Record<string, SourceSpell>; sources: {} }) {
-	const imported_spells: Record<string, DestSpell> = {};
+	const spells: Record<string, DestSpell> = {};
+	const by_class: Record<string, string[]> = {};
+	const by_source: Record<string, string[]> = {};
 	for (const new_spell of Object.entries(input.spells)) {
 		const [desc_base, desc_higher_levels] = new_spell[1].descriptionFull.split(AtHigherLevels, 2);
 		const imported_spell = {
@@ -70,9 +72,9 @@ function parse_imported_spells(input: { spells: Record<string, SourceSpell>; sou
 				cantrip: new_spell[1].descriptionCantripDie,
 			},
 		};
-		imported_spells[new_spell[0]] = imported_spell;
+		spells[new_spell[0]] = imported_spell;
 	}
-	return { spells: imported_spells };
+	return { spells, by_class, by_source };
 }
 
 function get_interesting_raw_data(script: string) {
