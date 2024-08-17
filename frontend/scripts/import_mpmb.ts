@@ -33,8 +33,9 @@ async function import_everything(args: string[]) {
 	for (const spell_list of Object.entries(imported_data.by_source)) {
 		file_writes.push(merge_into_spell_list(path.join(dest_folder, "sources"), "source", spell_list[0], spell_list[1]));
 	}
-	console.log(imported_data.by_class);
-	console.log(imported_data.by_source);
+	for (const spell_list of Object.entries(imported_data.by_class)) {
+		file_writes.push(merge_into_spell_list(path.join(dest_folder, "classes"), "class", spell_list[0], spell_list[1]));
+	}
 	console.log("Import complete.");
 }
 
@@ -64,20 +65,24 @@ async function merge_into_spells_data(spells: Record<string, DestSpell>, dest_pa
 	await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
 }
 
+function id_compare(lhs: string, rhs: string) {
+	return lhs.localeCompare(rhs, undefined, { caseFirst: "false" });
+}
+
 async function merge_into_spell_list(list_folder: string, kind: FilterFileKind, list_name: string, spells: string[]) {
+	spells.sort(id_compare);
 	const dest_path = path.join(list_folder, list_name + ".json");
 	let dest_data = await json_contents<SpellFilterFileContents>(dest_path);
 	if (!dest_data || dest_data.version !== 1) {
 		console.log("Invalid data found in", list_name, "re-initializing it.");
 		dest_data = { version: 1, kind, spells };
 	} else {
-		dest_data.spells.sort();
-		spells.sort();
+		dest_data.spells.sort(id_compare);
 		const new_spells = [];
 		let existing_idx = 0,
 			new_idx = 0;
 		while (existing_idx < dest_data.spells.length && new_idx < spells.length) {
-			switch (dest_data.spells[existing_idx].localeCompare(spells[new_idx])) {
+			switch (id_compare(dest_data.spells[existing_idx], spells[new_idx])) {
 				case -1:
 					existing_idx++;
 					break;
@@ -96,6 +101,9 @@ async function merge_into_spell_list(list_folder: string, kind: FilterFileKind, 
 					);
 			}
 		}
+		dest_data.spells.push(...new_spells);
+		if (new_idx < spells.length) dest_data.spells.push(...spells.slice(new_idx));
+		dest_data.spells.sort(id_compare);
 	}
 	await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
 }
