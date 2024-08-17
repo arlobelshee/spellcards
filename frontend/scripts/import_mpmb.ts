@@ -25,7 +25,8 @@ async function import_everything(args: string[]) {
 	const dest_folder = args[1];
 	const script = await fs.readFile(args[0], { encoding: "utf8" });
 	const input = get_interesting_raw_data(script);
-	await merge_into_spells_data(parse_imported_spells(input).spells, path.join(dest_folder, "all_spells.json"));
+	const imported_data = parse_imported_spells(input);
+	await merge_into_spells_data(imported_data.spells, path.join(dest_folder, "all_spells.json"));
 	console.log("Import complete.");
 }
 
