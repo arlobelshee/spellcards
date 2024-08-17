@@ -11,6 +11,11 @@ type DestSpell = {
 	description: { short: string; base: string; upcast?: string; cantrip?: string };
 };
 type AllSpellsFileContents = { version: number; kind: "spell-list"; spells: Record<string, DestSpell> };
+type SpellFilterFileContents = {
+	version: number;
+	kind: "character" | "source" | "class";
+	spells: Record<string, DestSpell>;
+};
 
 async function import_everything(args: string[]) {
 	if (args.length !== 2) {
@@ -49,7 +54,7 @@ async function merge_into_spells_data(input: { spells: Record<string, SourceSpel
 	for (const new_spell of Object.entries(input.spells)) {
 		warn_if_exists("spell", dest_data.spells, new_spell[0]);
 		const [desc_base, desc_higher_levels] = new_spell[1].descriptionFull.split(AtHigherLevels, 2);
-		dest_data.spells[new_spell[0]] = {
+		const imported_spell = {
 			...(Object.fromEntries(KeysToKeepUnaltered.map((key) => [key[1], new_spell[1][key[0]]])) as ImportedSpell),
 			id: new_spell[0],
 			description: {
@@ -59,9 +64,10 @@ async function merge_into_spells_data(input: { spells: Record<string, SourceSpel
 				cantrip: new_spell[1].descriptionCantripDie,
 			},
 		};
-
-		await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
+		dest_data.spells[new_spell[0]] = imported_spell;
 	}
+
+	await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
 }
 
 function warn_if_exists(kind: string, data: Record<string, unknown>, id: string) {
