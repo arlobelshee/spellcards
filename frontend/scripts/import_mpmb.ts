@@ -16,6 +16,7 @@ type FilterFileKind = "character" | "source" | "class";
 type SpellFilterFileContents = {
 	version: number;
 	kind: FilterFileKind;
+	name?: string;
 	spells: string[];
 };
 
