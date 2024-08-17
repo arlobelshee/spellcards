@@ -42,9 +42,7 @@ async function merge_into_spells_data(input: { spells: Record<string, SourceSpel
 	}
 	console.log(dest_data);
 	for (const new_spell of Object.entries(input.spells)) {
-		if (Object.prototype.hasOwnProperty.call(dest_data.spells, new_spell[0])) {
-			console.log("WARNING: replacing spell with ID", new_spell[0]);
-		}
+		warn_if_exists("spell", dest_data.spells, new_spell[0]);
 		const [desc_base, desc_higher_levels] = new_spell[1].descriptionFull.split(AtHigherLevels, 2);
 		dest_data.spells[new_spell[0]] = {
 			...(Object.fromEntries(KeysToKeepUnaltered.map((key) => [key[1], new_spell[1][key[0]]])) as ImportedSpell),
@@ -59,6 +57,12 @@ async function merge_into_spells_data(input: { spells: Record<string, SourceSpel
 				"\t",
 			),
 		);
+	}
+}
+
+function warn_if_exists(kind: string, data: Record<string, unknown>, id: string) {
+	if (Object.prototype.hasOwnProperty.call(data, id)) {
+		console.log(`WARNING: replacing ${kind} with ID ${id}`);
 	}
 }
 
