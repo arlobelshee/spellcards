@@ -12,10 +12,11 @@ type DestSpell = {
 	sources: [string, number][];
 };
 type AllSpellsFileContents = { version: number; kind: "spell-list"; spells: Record<string, DestSpell> };
+type FilterFileKind = "character" | "source" | "class";
 type SpellFilterFileContents = {
 	version: number;
-	kind: "character" | "source" | "class";
-	spells: Record<string, DestSpell>;
+	kind: FilterFileKind;
+	spells: string[];
 };
 
 async function import_everything(args: string[]) {
@@ -27,7 +28,11 @@ async function import_everything(args: string[]) {
 	const script = await fs.readFile(args[0], { encoding: "utf8" });
 	const input = get_interesting_raw_data(script);
 	const imported_data = parse_imported_spells(input);
-	await merge_into_spells_data(imported_data.spells, path.join(dest_folder, "all_spells.json"));
+	const file_writes = [merge_into_spells_data(imported_data.spells, path.join(dest_folder, "all_spells.json"))];
+	await Promise.all(file_writes);
+	for (const spell_list of Object.entries(imported_data.by_source)) {
+		file_writes.push(merge_into_spell_list(path.join(dest_folder, "sources"), "source", spell_list[0], spell_list[1]));
+	}
 	console.log(imported_data.by_class);
 	console.log(imported_data.by_source);
 	console.log("Import complete.");
@@ -57,6 +62,51 @@ async function merge_into_spells_data(spells: Record<string, DestSpell>, dest_pa
 	}
 	Object.assign(dest_data.spells, spells);
 	await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
+}
+
+async function merge_into_spell_list(list_folder: string, kind: FilterFileKind, list_name: string, spells: string[]) {
+	let dest_data = await json_contents<SpellFilterFileContents>(path.join(list_folder, list_name));
+	if (!dest_data || dest_data.version !== 1) {
+		console.log("Invalid data found in", list_name, "re-initializing it.");
+		dest_data = { version: 1, kind, spells };
+	} else {
+		dest_data.spells.sort();
+		spells.sort();
+		const new_spells = [];
+		let existing_idx = 0,
+			new_idx = 0;
+		while (existing_idx < dest_data.spells.length && new_idx < spells.length) {
+			switch (dest_data.spells[existing_idx].localeCompare(spells[new_idx])) {
+				case -1:
+					existing_idx++;
+					break;
+				case 0:
+					existing_idx++;
+					new_idx++;
+					break;
+				case 1:
+					new_spells.push(spells[new_idx]);
+					new_idx++;
+					break;
+
+				default:
+					throw new Error(
+						`String compare returned invalid number (${dest_data.spells[existing_idx].localeCompare(spells[new_idx])}) when comparing ${dest_data.spells[existing_idx]} to ${spells[new_idx]}`,
+					);
+			}
+		}
+	}
+	console.log(dest_data);
+}
+
+async function json_contents<T>(file_path: string): Promise<T> {
+	let content = "{}";
+	try {
+		content = await fs.readFile(file_path, { encoding: "utf8" });
+	} catch (e) {
+		console.log(e.message, "while reading", file_path, ". Using default.");
+	}
+	return JSON.parse(content);
 }
 
 function parse_imported_spells(input: { spells: Record<string, SourceSpell>; sources: {} }) {
