@@ -1,6 +1,7 @@
 {
 	"version": 1,
 	"kind": "class",
+	"name": "Ranger",
 	"spells": [
 		"agonizing mark",
 		"alter arrows fortune",

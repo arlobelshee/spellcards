@@ -1,6 +1,7 @@
 {
 	"version": 1,
 	"kind": "class",
+	"name": "Paladin",
 	"spells": [
 		"ancestors strength",
 		"anticipate attack",
