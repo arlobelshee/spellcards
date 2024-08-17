@@ -65,7 +65,8 @@ async function merge_into_spells_data(spells: Record<string, DestSpell>, dest_pa
 }
 
 async function merge_into_spell_list(list_folder: string, kind: FilterFileKind, list_name: string, spells: string[]) {
-	let dest_data = await json_contents<SpellFilterFileContents>(path.join(list_folder, list_name));
+	const dest_path = path.join(list_folder, list_name + ".json");
+	let dest_data = await json_contents<SpellFilterFileContents>(dest_path);
 	if (!dest_data || dest_data.version !== 1) {
 		console.log("Invalid data found in", list_name, "re-initializing it.");
 		dest_data = { version: 1, kind, spells };
@@ -96,7 +97,7 @@ async function merge_into_spell_list(list_folder: string, kind: FilterFileKind, 
 			}
 		}
 	}
-	console.log(dest_data);
+	await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
 }
 
 async function json_contents<T>(file_path: string): Promise<T> {
