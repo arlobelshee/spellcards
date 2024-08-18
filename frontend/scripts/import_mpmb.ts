@@ -37,18 +37,19 @@ async function import_everything(args: string[]) {
 	const input = get_interesting_raw_data(script);
 	const imported_data = get_interesting_data(input);
 	const file_writes = [merge_into_spells_data(imported_data.spells, path.join(dest_folder, "all_spells.json"))];
-	for (const spell_list of Object.entries(imported_data.by_source)) {
+	for (const [id, spells] of Object.entries(imported_data.by_source)) {
 		file_writes.push(
-			merge_into_spell_list(path.join(dest_folder, "sources"), spell_list[0], spell_list[1], {
+			merge_into_spell_list(path.join(dest_folder, "sources"), id, spells, {
 				kind: "source",
-				...imported_data.sources[spell_list[0]],
+				...imported_data.sources[id],
 			}),
 		);
 	}
-	for (const spell_list of Object.entries(imported_data.by_class)) {
+	for (const [id, spells] of Object.entries(imported_data.by_class)) {
 		file_writes.push(
-			merge_into_spell_list(path.join(dest_folder, "classes"), spell_list[0], spell_list[1], {
+			merge_into_spell_list(path.join(dest_folder, "classes"), id, spells, {
 				kind: "class",
+				id,
 			}),
 		);
 	}
@@ -134,6 +135,7 @@ async function merge_into_spell_list(
 		dest_data.spells.push(...new_spells);
 		if (new_idx < spells.length) dest_data.spells.push(...spells.slice(new_idx));
 		dest_data.spells.sort(id_compare);
+		dest_data = { version: 1, ...additional_fields, ...dest_data };
 	}
 	await fs.writeFile(dest_path, JSON.stringify(dest_data, undefined, "\t"));
 }

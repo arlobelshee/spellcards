@@ -1,6 +1,7 @@
 {
 	"version": 1,
 	"kind": "class",
+	"id": "druid",
 	"name": "Druid",
 	"spells": [
 		"abhorrence",

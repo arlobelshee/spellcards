@@ -1,6 +1,7 @@
 {
 	"version": 1,
 	"kind": "class",
+	"id": "ranger",
 	"name": "Ranger",
 	"spells": [
 		"agonizing mark",

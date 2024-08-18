@@ -1,6 +1,7 @@
 {
 	"version": 1,
 	"kind": "class",
+	"id": "wizard",
 	"name": "Wizard",
 	"spells": [
 		"abhorrence",
