@@ -40,14 +40,14 @@ async function import_everything(args: string[]) {
 	await Promise.all(file_writes);
 	for (const spell_list of Object.entries(imported_data.by_source)) {
 		file_writes.push(
-			merge_into_spell_list(path.join(dest_folder, "sources"), "source", spell_list[0], spell_list[1], {
+			merge_into_spell_list(path.join(dest_folder, "sources"), spell_list[0], spell_list[1], {
 				kind: "source",
 			}),
 		);
 	}
 	for (const spell_list of Object.entries(imported_data.by_class)) {
 		file_writes.push(
-			merge_into_spell_list(path.join(dest_folder, "classes"), "class", spell_list[0], spell_list[1], {
+			merge_into_spell_list(path.join(dest_folder, "classes"), spell_list[0], spell_list[1], {
 				kind: "class",
 			}),
 		);
@@ -87,7 +87,6 @@ function id_compare(lhs: string, rhs: string) {
 
 async function merge_into_spell_list(
 	list_folder: string,
-	kind: FilterFileKind,
 	list_name: string,
 	spells: string[],
 	additional_fields: { kind: FilterFileKind } & Record<string, string | number>,
