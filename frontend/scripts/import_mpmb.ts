@@ -39,10 +39,18 @@ async function import_everything(args: string[]) {
 	const file_writes = [merge_into_spells_data(imported_data.spells, path.join(dest_folder, "all_spells.json"))];
 	await Promise.all(file_writes);
 	for (const spell_list of Object.entries(imported_data.by_source)) {
-		file_writes.push(merge_into_spell_list(path.join(dest_folder, "sources"), "source", spell_list[0], spell_list[1]));
+		file_writes.push(
+			merge_into_spell_list(path.join(dest_folder, "sources"), "source", spell_list[0], spell_list[1], {
+				kind: "source",
+			}),
+		);
 	}
 	for (const spell_list of Object.entries(imported_data.by_class)) {
-		file_writes.push(merge_into_spell_list(path.join(dest_folder, "classes"), "class", spell_list[0], spell_list[1]));
+		file_writes.push(
+			merge_into_spell_list(path.join(dest_folder, "classes"), "class", spell_list[0], spell_list[1], {
+				kind: "class",
+			}),
+		);
 	}
 	console.log("Import complete.");
 }
@@ -77,7 +85,13 @@ function id_compare(lhs: string, rhs: string) {
 	return lhs.localeCompare(rhs, undefined, { caseFirst: "false" });
 }
 
-async function merge_into_spell_list(list_folder: string, kind: FilterFileKind, list_name: string, spells: string[]) {
+async function merge_into_spell_list(
+	list_folder: string,
+	kind: FilterFileKind,
+	list_name: string,
+	spells: string[],
+	additional_fields: Record<string, string | number>,
+) {
 	spells.sort(id_compare);
 	const dest_path = path.join(list_folder, list_name + ".json");
 	let dest_data = await json_contents<SpellFilterFileContents>(dest_path);
