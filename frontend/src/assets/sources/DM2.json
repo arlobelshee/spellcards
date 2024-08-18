@@ -1,6 +1,11 @@
 {
 	"version": 1,
 	"kind": "source",
+	"id": "DM2",
+	"name": "Deep Magic Volume 2",
+	"abbreviation": "DM2",
+	"abbreviation_spellsheet": "D",
+	"url": "https://koboldpress.com/kpstore/product/deep-magic-volume-1-2-2023/",
 	"spells": [
 		"bark bulwark",
 		"bartholomews elemental arc",

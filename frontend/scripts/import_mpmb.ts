@@ -15,7 +15,7 @@ type DestSource = {
 	id: string;
 	name: string;
 	abbreviation: string;
-	abbreviationSpellsheet: string;
+	abbreviation_spellsheet: string;
 	url?: string;
 };
 type AllSpellsFileContents = { version: number; kind: "spell-list"; spells: Record<string, DestSpell> };
@@ -37,11 +37,11 @@ async function import_everything(args: string[]) {
 	const input = get_interesting_raw_data(script);
 	const imported_data = get_interesting_data(input);
 	const file_writes = [merge_into_spells_data(imported_data.spells, path.join(dest_folder, "all_spells.json"))];
-	await Promise.all(file_writes);
 	for (const spell_list of Object.entries(imported_data.by_source)) {
 		file_writes.push(
 			merge_into_spell_list(path.join(dest_folder, "sources"), spell_list[0], spell_list[1], {
 				kind: "source",
+				...imported_data.sources[spell_list[0]],
 			}),
 		);
 	}
@@ -52,6 +52,7 @@ async function import_everything(args: string[]) {
 			}),
 		);
 	}
+	await Promise.all(file_writes);
 	console.log("Import complete.");
 }
 
@@ -63,13 +64,21 @@ type SourceSpell = {
 	defaultExcluded?: boolean;
 	classes: string[];
 } & Record<string, unknown>;
-const KeysToKeepUnaltered = [
+const KeysToKeepUnalteredForSpell = [
 	["name", "name"],
 	["level", "level"],
 	["school", "school"],
 	["nameShort", "name_short"],
 ];
 type ImportedSpell = Omit<DestSpell, "id" | "description">;
+
+const KeysToKeepUnalteredForSource = [
+	["name", "name"],
+	["abbreviation", "abbreviation"],
+	["abbreviationSpellsheet", "abbreviation_spellsheet"],
+	["url", "url"],
+];
+type ImportedSource = Omit<DestSource, "id">;
 
 async function merge_into_spells_data(spells: Record<string, DestSpell>, dest_path: string) {
 	let dest_data: AllSpellsFileContents = JSON.parse(await fs.readFile(dest_path, { encoding: "utf8" }));
@@ -96,7 +105,7 @@ async function merge_into_spell_list(
 	let dest_data = await json_contents<SpellFilterFileContents>(dest_path);
 	if (!dest_data || dest_data.version !== 1) {
 		console.log("Invalid data found in", list_name, "re-initializing it.");
-		dest_data = { ...additional_fields, version: 1, spells };
+		dest_data = { version: 1, ...additional_fields, spells };
 	} else {
 		dest_data.spells.sort(id_compare);
 		const new_spells = [];
@@ -147,8 +156,10 @@ function get_interesting_data(input: { spells: Record<string, SourceSpell>; sour
 	for (const new_spell of Object.entries(input.spells)) {
 		const [desc_base, desc_higher_levels] = new_spell[1].descriptionFull.split(AtHigherLevels, 2);
 		const imported_spell = {
-			...(Object.fromEntries(KeysToKeepUnaltered.map((key) => [key[1], new_spell[1][key[0]]])) as ImportedSpell),
 			id: new_spell[0],
+			...(Object.fromEntries(
+				KeysToKeepUnalteredForSpell.map((key) => [key[1], new_spell[1][key[0]]]),
+			) as ImportedSpell),
 			description: {
 				short: new_spell[1].description,
 				base: desc_base.trim(),
@@ -169,6 +180,14 @@ function get_interesting_data(input: { spells: Record<string, SourceSpell>; sour
 			else by_source[target[0]] = [imported_spell.id];
 		}
 		spells[imported_spell.id] = imported_spell;
+	}
+	for (const new_source of Object.entries(input.sources)) {
+		sources[new_source[0]] = {
+			id: new_source[0],
+			...(Object.fromEntries(
+				KeysToKeepUnalteredForSource.map((key) => [key[1], new_source[1][key[0]]]),
+			) as ImportedSource),
+		};
 	}
 	return { spells, by_class, by_source, sources };
 }
