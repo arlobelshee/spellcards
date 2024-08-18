@@ -7,7 +7,26 @@ const AtHigherLevels = "MARKER_AT_HIGHER_LEVELS";
 type DestSpell = {
 	id: string;
 	name: string;
-	name_short?: string;
+	name_short: string;
+	range: string;
+	school:
+		| "Abjur"
+		| "Conj"
+		| "Div"
+		| "Ench"
+		| "Evoc"
+		| "Illus"
+		| "Necro"
+		| "Trans"
+		| "Avatar"
+		| "Awake"
+		| "Immor"
+		| "Nomad"
+		| "Wu Jen";
+	casting_time: { short: string; base: string };
+	components: string;
+	components_material: string;
+	duration: string;
 	description: { short: string; base: string; upcast?: string; cantrip?: string };
 	sources: [string, number][];
 };
@@ -61,17 +80,23 @@ type SourceSpell = {
 	description: string;
 	descriptionFull?: string;
 	descriptionCantripDie?: string;
+	time: string;
+	timeFull?: string;
 	source: [string, number] | [string, number][];
 	defaultExcluded?: boolean;
 	classes: string[];
 } & Record<string, unknown>;
 const KeysToKeepUnalteredForSpell = [
 	["name", "name"],
-	["level", "level"],
-	["school", "school"],
 	["nameShort", "name_short"],
+	["level", "level"],
+	["range", "range"],
+	["school", "school"],
+	["components", "components"],
+	["compMaterial", "components_material"],
+	["duration", "duration"],
 ];
-type ImportedSpell = Omit<DestSpell, "id" | "description">;
+type ImportedSpell = Omit<DestSpell, "id" | "description" | "casting_time">;
 
 const KeysToKeepUnalteredForSource = [
 	["name", "name"],
@@ -157,11 +182,15 @@ function get_interesting_data(input: { spells: Record<string, SourceSpell>; sour
 	const sources: Record<string, DestSource> = {};
 	for (const new_spell of Object.entries(input.spells)) {
 		const [desc_base, desc_higher_levels] = new_spell[1].descriptionFull.split(AtHigherLevels, 2);
-		const imported_spell = {
+		const imported_spell: DestSpell = {
 			id: new_spell[0],
 			...(Object.fromEntries(
-				KeysToKeepUnalteredForSpell.map((key) => [key[1], new_spell[1][key[0]]]),
+				KeysToKeepUnalteredForSpell.map((key) => [key[1], new_spell[1][key[0]] || ""]),
 			) as ImportedSpell),
+			casting_time: {
+				short: new_spell[1].time,
+				base: new_spell[1].timeFull,
+			},
 			description: {
 				short: new_spell[1].description,
 				base: desc_base.trim(),
