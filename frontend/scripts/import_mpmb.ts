@@ -90,14 +90,14 @@ async function merge_into_spell_list(
 	kind: FilterFileKind,
 	list_name: string,
 	spells: string[],
-	additional_fields: Record<string, string | number>,
+	additional_fields: { kind: FilterFileKind } & Record<string, string | number>,
 ) {
 	spells.sort(id_compare);
 	const dest_path = path.join(list_folder, list_name + ".json");
 	let dest_data = await json_contents<SpellFilterFileContents>(dest_path);
 	if (!dest_data || dest_data.version !== 1) {
 		console.log("Invalid data found in", list_name, "re-initializing it.");
-		dest_data = { version: 1, kind, spells };
+		dest_data = { ...additional_fields, version: 1, spells };
 	} else {
 		dest_data.spells.sort(id_compare);
 		const new_spells = [];
