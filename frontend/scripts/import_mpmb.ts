@@ -3,6 +3,14 @@ import path from "node:path";
 import process from "node:process";
 import console from "node:console";
 
+enum CastingTime {
+	Action,
+	Bonus,
+	Reaction,
+	Long,
+}
+const Icons = { CastingTime };
+
 const AtHigherLevels = "MARKER_AT_HIGHER_LEVELS";
 type DestSpell = {
 	id: string;
@@ -23,7 +31,7 @@ type DestSpell = {
 		| "Immor"
 		| "Nomad"
 		| "Wu Jen";
-	casting_time: { short: string; base: string };
+	casting_time: { short: string; base: string; icon: CastingTime };
 	components: string;
 	components_material: string;
 	duration: string;
@@ -190,6 +198,7 @@ function get_interesting_data(input: { spells: Record<string, SourceSpell>; sour
 			casting_time: {
 				short: new_spell[1].time,
 				base: new_spell[1].timeFull,
+				icon: undefined,
 			},
 			description: {
 				short: new_spell[1].description,
@@ -210,6 +219,9 @@ function get_interesting_data(input: { spells: Record<string, SourceSpell>; sour
 			if (by_source[target[0]]) by_source[target[0]].push(imported_spell.id);
 			else by_source[target[0]] = [imported_spell.id];
 		}
+		const computed_ct = full_casting_time_from(imported_spell.casting_time.short);
+		imported_spell.casting_time.icon = computed_ct.icon;
+		if (!imported_spell.casting_time.base) imported_spell.casting_time.base = computed_ct.base;
 		spells[imported_spell.id] = imported_spell;
 	}
 	for (const new_source of Object.entries(input.sources)) {
@@ -235,6 +247,17 @@ function get_interesting_raw_data(script: string) {
 		`"use strict";${script}`,
 	)(other.sheetVersion, other.RequiredSheetVersion, results.spells, results.sources, AtHigherLevels);
 	return results;
+}
+
+function full_casting_time_from(abbreviation: string): { base: string; icon: CastingTime } {
+	if (abbreviation === "1 a") return { base: "1 action", icon: Icons.CastingTime.Action };
+	if (abbreviation === "1 bns") return { base: "1 bonus action", icon: Icons.CastingTime.Bonus };
+	if (abbreviation === "1 rea") return { base: "1 reaction", icon: Icons.CastingTime.Reaction };
+	if (abbreviation.endsWith("min"))
+		return { base: abbreviation.slice(0, -3).concat("minute(s)"), icon: Icons.CastingTime.Long };
+	if (abbreviation.endsWith("h"))
+		return { base: abbreviation.slice(0, -1).concat("hour(s)"), icon: Icons.CastingTime.Long };
+	return { base: abbreviation, icon: Icons.CastingTime.Long };
 }
 
 await import_everything(process.argv.slice(2));

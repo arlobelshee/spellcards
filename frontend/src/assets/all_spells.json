@@ -13,7 +13,9 @@
 			"components_material": "",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Make a crea less appealing to others. 1 crea save or subtract 1d6 from their next Cha check ",
@@ -37,7 +39,9 @@
 			"components_material": "a toy top",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "3 willing crea walking speed doubled, can use dash as bns action, adv on dex saves",
@@ -62,7 +66,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 willing crea adds 1d6 to 1 wis check of their choice, roll before or after making check",
@@ -86,7 +92,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Mark 1 crea as prey with ray of black energy, 1 crea save or fall prone in agony",
@@ -110,7 +118,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Shoot stream of cold ale, ranged spell attack 1d8 cold dmg, crea saves or is poisoned; see book",
@@ -135,7 +145,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 willing crea add 1d6 to next charisma check of its choice, roll before or after the check",
@@ -160,7 +172,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 rea",
-				"base": "1 reaction, which you take when an enemy makes a ranged attack that hits"
+				"base": "1 reaction, which you take when an enemy makes a ranged attack that hits",
+				"icon": 2
 			},
 			"description": {
 				"short": "On successful enemy rngd or spell attk, 1 crea save or reroll attack roll, taking lower roll (disadvantage)",
@@ -184,7 +197,9 @@
 			"components_material": "",
 			"duration": "Conc, 8 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 willing crea becomes invigorated, strength of next size category, adv on str checks",
@@ -209,7 +224,8 @@
 			"duration": "5 min",
 			"casting_time": {
 				"short": "1 a/rea",
-				"base": "1 action, or 1 reaction, which you take while falling"
+				"base": "1 action, or 1 reaction, which you take while falling",
+				"icon": 3
 			},
 			"description": {
 				"short": "Create spectral rope magically anchored at a point you select within range. See book",
@@ -234,7 +250,9 @@
 			"components_material": "",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Create mental link with beast, use  bns action to transfer your awareness to the beast and back, see b",
@@ -258,7 +276,9 @@
 			"components_material": "Intricately folded paper or parchment",
 			"duration": "24 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "fold paper into an animal shape, becomes enchanted and gains properties of the animal it represents.",
@@ -283,7 +303,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 a",
-				"base": "1 reaction, which you take when you are attacked but before the attack roll is made"
+				"base": "1 reaction, which you take when you are attacked but before the attack roll is made",
+				"icon": 0
 			},
 			"description": {
 				"short": "Spot oncoming attack, move half speed w/o prvkng opp attks, miss attk if no longer in range, see b",
@@ -307,7 +328,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 bns"
+				"short": "1 bns",
+				"base": "1 bonus action",
+				"icon": 1
 			},
 			"description": {
 				"short": "See gaps in foe's defense, gain advantage on attack rolls until end of next turn",
@@ -331,7 +354,9 @@
 			"components_material": "",
 			"duration": "2 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Draw on arcane power to cast without spellslots, reduce spell duration by 10 m per spell level, see book",
@@ -355,7 +380,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 hr",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Crea gains climbing speed, adv on str (athletics) checks when jumping or climbing",
@@ -379,7 +406,9 @@
 			"components_material": "",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Take on physical attributes of a ram, gain ram attack action, adv on athletics/acrobatics checks see book",
@@ -403,7 +432,9 @@
 			"components_material": "A dried snakeskin",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Gain 60ft darkvision/30 ft blindsight, ranged weapon attack 2d6 poison dmg on bns",
@@ -429,7 +460,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 rea",
-				"base": "1 reaction, which you take when you are struck by a critical hit"
+				"base": "1 reaction, which you take when you are struck by a critical hit",
+				"icon": 2
 			},
 			"description": {
 				"short": "Cast after crit but before dmg rolled, attack becomes a normal hit",
@@ -453,7 +485,9 @@
 			"components_material": "Ruby worth at least 1000g",
 			"duration": "Permanent",
 			"casting_time": {
-				"short": "8 h"
+				"short": "8 h",
+				"base": "8 hour(s)",
+				"icon": 3
 			},
 			"description": {
 				"short": "Imbue object with sentience and free will, stats determined by size, can make melee attacks see book",
@@ -477,7 +511,9 @@
 			"components_material": "A bit of fur from a bat's ear",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Echolocation + blindsight, can't use if deafened, disadv on stealth/adv on perception (hearing) chks",
@@ -501,7 +537,9 @@
 			"components_material": "",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea save or subtract 1d6 from next intelligence check",
@@ -525,7 +563,9 @@
 			"components_material": "an arrow or thrown weapon",
 			"duration": "1 rnd",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Ranged weapon attack to 120 ft, target coated in frost until next turn, 1d6 dmg if rea used see book",
@@ -549,7 +589,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Bless a deceased creature, let it to cross to realm of the dead. Cannot turn undead.",
@@ -573,7 +615,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Touch a fresh corpse you have damaged before it died, regain 1d4 x CR rating (min 1d4) HP ",
@@ -597,7 +641,9 @@
 			"components_material": "A drop of ammonia",
 			"duration": "8 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea gains enhanced smell, adv on wis perception checks using smell and surv checks for tracking",
@@ -622,7 +668,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 bns"
+				"short": "1 bns",
+				"base": "1 bonus action",
+				"icon": 1
 			},
 			"description": {
 				"short": "On next melee wpn attk, deal extra 1d6 necrotic dmg, save on each turn or 1d6 dmg and can't cast",
@@ -646,7 +694,9 @@
 			"components_material": "A pebble and a sliver of bone",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea gain resistance to slash/bludg dmg, adv on str checks against effects that would move char",
@@ -670,7 +720,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Str considered to be 19 for hauling obj, range of 60/240 ft, 2d10 bludg dmg on hit, save or prone",
@@ -696,7 +748,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea add 1d6 to str check of their check, can roll before or after check",
@@ -720,7 +774,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Blast of winter air at 1 crea, must save or unable to speak or cast spells",
@@ -744,7 +800,9 @@
 			"components_material": "A magnetized needle",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Breeze leads you to location you imagine, requires regular arcana checks, see book",
@@ -768,7 +826,9 @@
 			"components_material": "An icicle",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Metal or stone object becomes brital, HP reduced and gain adv on str checks to break object",
@@ -792,7 +852,9 @@
 			"components_material": "a small berry or a piece of fruit",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Jam oozes from mechanical device, Constructs save or disadv on attks/checks",
@@ -817,7 +879,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 rea",
-				"base": "1 reaction, which you take when an enemy’s attack deals piercing or slashing damage to you"
+				"base": "1 reaction, which you take when an enemy’s attack deals piercing or slashing damage to you",
+				"icon": 2
 			},
 			"description": {
 				"short": "Blood becomes caustic, on pierce/slash dmg, 3 crea save or take 1d10 acid damage.",
@@ -842,7 +905,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Hand sweats caustic slime, melee spell attk, 1 creature save or disadv on conc, 1d8 acid dmg",
@@ -867,7 +932,9 @@
 			"components_material": "a piece of cracked glass",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Conjure line of icy boulders, crush anything beneath them, dex save or 5d6 bludg dmg",
@@ -892,7 +959,9 @@
 			"components_material": "",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Make 1 crea less dexterous, save or subtract 1d6 from next dex check",
@@ -916,7 +985,9 @@
 			"components_material": "two or more matching carved totems",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Communicate while in beast form with the recipient of the carved totem",
@@ -941,7 +1012,9 @@
 			"components_material": "a wooden or metal whistle",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Summon a Hound of the Night (see Tome of Beasts), can bite, teleport, frost breath",
@@ -966,7 +1039,9 @@
 			"components_material": "One humanoid body which the spell consumes",
 			"duration": "Until destroyed",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Bring a body to life as a forest defender, obeys your commands.",
@@ -991,7 +1066,9 @@
 			"components_material": "",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "See Cjr Animals, have 1HP/1dmg, at 0 HP explode in flash, 2d4 rad dmg + save or blind within 5 ft.",
@@ -1015,7 +1092,9 @@
 			"components_material": "a beetle carapace",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Summon two swarms of beetles, each does up to 4d4 piercing dmg",
@@ -1039,7 +1118,9 @@
 			"components_material": "a humanoid skull",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 min"
+				"short": "1 min",
+				"base": "1 minute(s)",
+				"icon": 3
 			},
 			"description": {
 				"short": "Summon a shadow to do your bidding, has its own initiative, obeys commands",
@@ -1064,7 +1145,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Ask 15 word question, get a truthful answer heard 600ft, 7d6 thunder dmg within 15 ft, save halves",
@@ -1089,7 +1172,9 @@
 			"components_material": "a cube of white wax",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Control ice inside area 100ft cube, crack, reshape, thicken/thin ice, see b",
@@ -1113,7 +1198,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "5ft square of ice, encases enemy within, 2d6 cold dmg at start of turn, can be broken out",
@@ -1138,7 +1225,9 @@
 			"components_material": "",
 			"duration": "1 rd",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "move twice speed in straight line, trampling enemies of <= size, save or 4d6 bludg dmg + prone",
@@ -1162,7 +1251,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 bns"
+				"short": "1 bns",
+				"base": "1 bonus action",
+				"icon": 1
 			},
 			"description": {
 				"short": "1 crea save or ",
@@ -1187,7 +1278,9 @@
 			"components_material": "a piece of spoiled food",
 			"duration": "5 days",
 			"casting_time": {
-				"short": "10 m"
+				"short": "10 m",
+				"base": "10 m",
+				"icon": 3
 			},
 			"description": {
 				"short": "Curse familiar creature, unsatiated by food, constant hunger, save every 24h or gain exhaustion",
@@ -1211,7 +1304,9 @@
 			"components_material": "a dog's tooth",
 			"duration": "8 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea save or fear of canids, become frightened, disadv on checks and attk rolls while canids within 10ft",
@@ -1236,7 +1331,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Creatures take 5d8 dmg and become frightened, save to take half damage and not frightened. See b",
@@ -1262,7 +1359,9 @@
 			"components_material": "a handful of ash",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Melee spell attk, 1d10 necro dmg. Tiny or small nonmagical objects take max dmg",
@@ -1287,7 +1386,9 @@
 			"components_material": "a toy top",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Slow crea speed to half movement, repeat save each turn, speed continues to halve",
@@ -1312,7 +1413,9 @@
 			"components_material": "",
 			"duration": "2 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Breathe normally in thin atmosphere, duration split between all crea touched",
@@ -1337,7 +1440,9 @@
 			"components_material": "",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Next spell level 4 or lower cast within 1 min req conc will last without need for conc. ",
@@ -1362,7 +1467,9 @@
 			"components_material": "a porcupine’s quill)",
 			"duration": "10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Quills grow on skin, +1 to AC, light attks take 2d8 piercing dmg, grappling/swallowing you takes dmg",
@@ -1386,7 +1493,9 @@
 			"components_material": "a clump of dried clay",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Draw moisture from the air, save or 4d10 necro dmg, increase to 6d10 if plants",
@@ -1410,7 +1519,9 @@
 			"components_material": "",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Detect presence of dragons/draconic creatures in line of sight up to 120ft, arcana check to learn details,",
@@ -1434,7 +1545,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Aura outlines crea in 100ft cube, invis/hidden crea outlined, spells/magic items req wis save",
@@ -1460,7 +1573,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 a",
-				"base": "1 reaction, which you take when an ally declares an attack against an enemy you can see"
+				"base": "1 reaction, which you take when an ally declares an attack against an enemy you can see",
+				"icon": 0
 			},
 			"description": {
 				"short": "Throw foe off balance,attacks against crea made with advantage until end of turn",
@@ -1484,7 +1598,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 bns"
+				"short": "1 bns",
+				"base": "1 bonus action",
+				"icon": 1
 			},
 			"description": {
 				"short": "Next melee weapon attack deals extra 1d6 cold dmg, up to 4 crea within 30ft con save or 1d6 cold dmg",
@@ -1509,7 +1625,9 @@
 			"components_material": "a small piece of flotsam or seaweed",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Fill a crea lungs with seawater, save or suffocate, cant speak, survive #rounds = con mod",
@@ -1534,7 +1652,9 @@
 			"components_material": "a flower petal or a drop of blood)",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Cover crea in buds, 2d8 necro dmg, additional damage from other sources extra 1d8 dmg see b",
@@ -1559,7 +1679,9 @@
 			"components_material": "a bit of bat fur",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Gain keen hearing + echolocation, adv on wis(percp) chks, blindsight 60ft, disadv on thunder dmg saves",
@@ -1583,7 +1705,9 @@
 			"components_material": "",
 			"duration": "Conc, 8 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Command earth, carries you and companions, bludgeons/buries enemies and small structures, see b",
@@ -1607,7 +1731,9 @@
 			"components_material": "a string tied in a knot",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Recall any information you ever read/heard, +10 bns on intelligence checks",
@@ -1631,7 +1757,9 @@
 			"components_material": "a brass wand",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Horned crea gains additional +3d6 elemental bonus acid/cold/fire/lightn/rad to gore attacks",
@@ -1656,7 +1784,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Crea gains resistance to acid/cold/fire/force/lightn/thdr dmg, if crea unwilling see b",
@@ -1681,7 +1811,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 rea",
-				"base": "1 reaction, which you take when you are the target of a spell that deals cold, fire, force, lightning, necrotic, psychic, radiant, or thunder damage"
+				"base": "1 reaction, which you take when you are the target of a spell that deals cold, fire, force, lightning, necrotic, psychic, radiant, or thunder damage",
+				"icon": 2
 			},
 			"description": {
 				"short": "Gain resistance to all energy types of the spell hitting you, until end of next turn",
@@ -1706,7 +1837,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": " Willing crea you touch can add 1d6 to intelligence check of their choice",
@@ -1730,7 +1863,9 @@
 			"components_material": "",
 			"duration": "Permanent",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Ground thrusts up in 60x5ft line, diff terrain, crea in area 8d6 bludg dmg, save or knocked prone",
@@ -1754,7 +1889,9 @@
 			"components_material": "fletching from an arrow",
 			"duration": "1 rd",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Chaff barrier of feathers gives +5 to AC against ranged attacks by magic weapons",
@@ -1779,7 +1916,9 @@
 			"components_material": "a feather",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Targt transforms into feather, move in direction of wind, make small 5ft movements to aim per rd",
@@ -1804,7 +1943,9 @@
 			"components_material": "five flowers of different colors",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "crown of 5 flowers, adv on spell saves, immune to charm. As bns, choose crea to turn invisible see book",
@@ -1829,7 +1970,9 @@
 			"components_material": "fire the size of a small campfire or larger",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "3 darts of flamee shoot from fire to crea/s in 30ft, 4d6 fire dmg per dart",
@@ -1854,7 +1997,9 @@
 			"components_material": "",
 			"duration": "24 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Ingest nonmagical fire, stored harmlessly in mouth, spit it out as an action, 1d6/2d6 dmg sml/lrg fire.",
@@ -1878,7 +2023,9 @@
 			"components_material": "",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Crea gains immunity to fire dmg, can walk on the top of flames as if they were solid.",
@@ -1903,7 +2050,9 @@
 			"components_material": "a fleck of quartz",
 			"duration": "1 rd",
 			"casting_time": {
-				"short": "1 bns"
+				"short": "1 bns",
+				"base": "1 bonus action",
+				"icon": 1
 			},
 			"description": {
 				"short": "Snow surrounds 5ft rad, all (including you) have disadv on percep checks and attk rolls",
@@ -1927,7 +2076,9 @@
 			"components_material": "a raven’s feather or a bit of panther fur",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Forest welcomes you, gain adv on stealth checks to hide, while hidden in forest gain adv on next initiative roll",
@@ -1952,7 +2103,9 @@
 			"components_material": "a clump of soil from a forest",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Create bond willing crea and environment, not hindered by diff terr, adv on saves against env effects.",
@@ -1976,7 +2129,9 @@
 			"components_material": "a sliver of stone",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "crea in range save or 5d8 piercing dmg and restrained, save halves, area difficult terrain",
@@ -2000,7 +2155,9 @@
 			"components_material": "a bowl of fresh rainwater and a tree branch",
 			"duration": "24 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "200ft cube protected from nonmagic & magic storms/winds/floods, etc see book",
@@ -2024,7 +2181,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Willing crea can roll a d6, add result to con check of their choice.",
@@ -2048,7 +2207,9 @@
 			"components_material": "",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Crea save or subtract 1d6 from result of next con check",
@@ -2073,7 +2234,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 rea",
-				"base": "1 reaction, which you take when which you take when you see a creature within range about to consume a liquid"
+				"base": "1 reaction, which you take when which you take when you see a creature within range about to consume a liquid",
+				"icon": 2
 			},
 			"description": {
 				"short": "Freeze a drinking container of liquid instantly freezing the contents, cant be consumed.",
@@ -2098,7 +2260,9 @@
 			"components_material": "",
 			"duration": "Conc, 5 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "20ft rad sphere of mist, area heavily obscured, save each turn or 2d6 cold dmg and 1 lvl exhaustion",
@@ -2123,7 +2287,9 @@
 			"components_material": "a nail",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Enhance feet of 1 crea, double walking speed, gain 2 hoof attacks, each does 1d6 + str bludg dmg",
@@ -2148,7 +2314,8 @@
 			"duration": "1 min",
 			"casting_time": {
 				"short": "1 rea",
-				"base": "1 reaction, which you take when you or a creature within 30 feet of you is hit by an attack from an undead creature"
+				"base": "1 reaction, which you take when you or a creature within 30 feet of you is hit by an attack from an undead creature",
+				"icon": 2
 			},
 			"description": {
 				"short": "Gain immunity from lifesapping energy, prevent reduction in ability scores or HP max",
@@ -2172,7 +2339,9 @@
 			"components_material": "crystalline statue of a polar bear worth at least 25 gp",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "30ft rad sphere of fog, save or 12d6 cold dmg, +1 exhaustion, disadv on percep checks, see b",
@@ -2197,7 +2366,9 @@
 			"components_material": "",
 			"duration": "10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Walk on surface of snow or ice, will support your weight and not hinder movement",
@@ -2222,7 +2393,9 @@
 			"components_material": "a goat’s hoof",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Target climbs slopes, +2 bns on dex checks and saves o prevent falling or balance on narrow ledge",
@@ -2247,7 +2420,9 @@
 			"components_material": "a piece of the target terrain",
 			"duration": "24 h",
 			"casting_time": {
-				"short": "10 min"
+				"short": "10 min",
+				"base": "10 minute(s)",
+				"icon": 3
 			},
 			"description": {
 				"short": "Make 1-mile cube of natural terrain difficult to traverse and navigate, see book",
@@ -2271,7 +2446,9 @@
 			"components_material": "a few flower petals or a piece of fruit, which the spell consumes",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Intoxicating smell distracts enemies save or next attack made with disadv",
@@ -2295,7 +2472,9 @@
 			"components_material": "a plant from the surrounding terrain",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Gain physical characteristics of terrain, +2 bonus to stealth checks",
@@ -2320,7 +2499,9 @@
 			"components_material": "a crude model of the stand",
 			"duration": "8 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Make shelter in a tree, hold up to 9 crea, disadv on checks to spot the shelter",
@@ -2344,7 +2525,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Ranged spell attk, 3d10 cold dmg, disadv on all dex checks and saves until dmg healed.",
@@ -2369,7 +2552,9 @@
 			"components_material": "a firefly",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Illuminate a set of tracks, crea you designate that see the glow auto succeed on checks to track.",
@@ -2394,7 +2579,9 @@
 			"components_material": "scale from a light drake",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "When in range of light source, sheds bright light for additional 10ft.",
@@ -2418,7 +2605,9 @@
 			"components_material": "an acorn or nut",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Call legion of rabid squirrels, use swarm of poisonous snakes stats, DC10 con save or 4d6 poison dmg",
@@ -2443,7 +2632,9 @@
 			"components_material": "a clear piece of quartz",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Sense location of alide crea within 30ft, crea hiding from me make cha save to stay hidden.",
@@ -2467,7 +2658,9 @@
 			"components_material": "a piece of rope twisted into a loop",
 			"duration": "8 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Touch a trail, reconfigure it to loop back on itself, gives impression of forward progression, wis(surv) to notice.",
@@ -2491,7 +2684,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Hands become black claws, melee spell attk, 4d6 necrotic dmg, choose body/upper/lower limb, see b",
@@ -2515,7 +2710,9 @@
 			"components_material": "a vial of sand mixed with water",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "10ft diameter quicksand, str save or sink up to waist and restrained",
@@ -2539,7 +2736,9 @@
 			"components_material": "",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Smell wounded crea within 30ft, adv on wis perc/surv checks to track wounded cre, adv on melee attks on wounded crea",
@@ -2563,7 +2762,9 @@
 			"components_material": "an area of natural vegetation",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Vegetation on body, forms armor, temp AC of 14 + dex mod, adv on stealth checks in terrain used.",
@@ -2587,7 +2788,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Melee spell atk, 8d10 necro dmg, save or disadv on attk/saves/ability check rolls, redo save each turn",
@@ -2612,7 +2815,9 @@
 			"components_material": "",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "30 ft rad of night, normal darkness and heavily obscured",
@@ -2636,7 +2841,9 @@
 			"components_material": "a dog’s tooth",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Create illusionary wild dogs, bark and chase 1 crea, save or disadv on ability checks and attk rolls",
@@ -2661,7 +2868,9 @@
 			"components_material": "",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Cloud mind of 1 crea inhibiting decision-making skills, save or subtract 1d6 from next wisdom check",
@@ -2685,7 +2894,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Draw imaginary bowstring, fire glowing arrows, 20ft square take 3d8 poison dmg, become poisoned. Con save to halve.",
@@ -2710,7 +2921,9 @@
 			"components_material": "a cloth soaked in water",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Extinguish nonmagical fires in 30ft rad, magical fire req wis check 10+SL, fire elementals",
@@ -2735,7 +2948,9 @@
 			"components_material": "any seed",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Age a plant or creature by 1 year, if int 3+, con save to resist aging.",
@@ -2760,7 +2975,9 @@
 			"components_material": "a piece of amber",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Pillow of light, moves with me, crea in 5ft save or 4d8 rad dmg & blinded until start of my next turn",
@@ -2784,7 +3001,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "allies in range adv on str checks + saves, resist bludg, pierce, slash dmg, +2 bns to dmg, 1d4 exhaustion",
@@ -2809,7 +3028,9 @@
 			"components_material": "emeralds worth 100 gp, which the spell consumes",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Revive a beast died within the last minute, returns to life with 1hp, cant restore old age or body parts",
@@ -2833,7 +3054,9 @@
 			"components_material": "bit of fur and a bead of amber, crystal, or glass",
 			"duration": "10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Electricity arcs over body, resistance to lightning crea in 5ft on melee attks take 2d8 lightning dmg",
@@ -2857,7 +3080,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "5 crea save or 6d6 rad dmg, knocked prone, blinded. On fail half dmg, no prone/blind ",
@@ -2882,7 +3107,9 @@
 			"components_material": "a piece of wet wool",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Turn into a living storm cloud, gain flying speed, resistances, 3d8 lightning dmg on hit, see book",
@@ -2906,7 +3133,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "20 ft rad air vortex, on failed save crea take 3d8 bludg dmg, thrown into the air, takes falling dmg",
@@ -2931,7 +3160,9 @@
 			"components_material": "",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Call dawn to arrive, 30ft rad 100ft high cylinder of light on point within range, brightly lit",
@@ -2955,7 +3186,9 @@
 			"components_material": "a horseshoe",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Conjure fey spirit horses, in a 10x60ft area, each crea in area takes 6d10 bludg dmg & knocked prone",
@@ -2979,7 +3212,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Shock wave at point, 30ft sphere, crea pushed 30ft, knocked prone, strikes obstruction 5d6 bludg dmg see b",
@@ -3003,7 +3238,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea save or restrained by thorny vines, 2d6 piercing dmg when they try to break free",
@@ -3027,7 +3264,9 @@
 			"components_material": "a maple catkin",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea gain climb speed = walk speed while on plants, hold on one-handed, walk on tiny branches.",
@@ -3051,7 +3290,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Ask a question with a one word answer, crea save or compelled to answer honestly.",
@@ -3075,7 +3316,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea gains energy shield, +5 AC, resistance to nonmagic bludg/pierc/slash dmg, reflect hostile spells",
@@ -3099,7 +3342,9 @@
 			"components_material": "a lock of hair from a fey creature",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 bns"
+				"short": "1 bns",
+				"base": "1 bonus action",
+				"icon": 1
 			},
 			"description": {
 				"short": "4 floating orbs, dim light 15ft, enemy enters/starts turn, use rea to attk 1d6 force dmg pushed 20ft",
@@ -3124,7 +3369,9 @@
 			"components_material": "a piece of polished glass",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Sunlight reflects off fresh snow, temp drops, save or 4d8 cold dmg, blinded.",
@@ -3148,7 +3395,9 @@
 			"components_material": "a handful of paper confetti",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Burst of air rips weapons and items from hands of enemies in 20ft rad, items land 10ft away",
@@ -3172,7 +3421,9 @@
 			"components_material": "a piece of bark",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Create wall of bark, 5ft high 30ft long, 3/4 cover, permanent if conc maintained",
@@ -3197,7 +3448,8 @@
 			"duration": "1 rd",
 			"casting_time": {
 				"short": "1 rea",
-				"base": "1 reaction, which you take when a friendly creature within 10 feet of you would take acid, cold, fire, lightning, or thunder damage"
+				"base": "1 reaction, which you take when a friendly creature within 10 feet of you would take acid, cold, fire, lightning, or thunder damage",
+				"icon": 2
 			},
 			"description": {
 				"short": "call elemental energy towards you, make rgd spell attk to determine who takes dmg, see book",
@@ -3221,7 +3473,9 @@
 			"components_material": "a feather or bit of animal fur",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "PLACEHOLDER",
@@ -3245,7 +3499,9 @@
 			"components_material": "a birch wood fan",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "120ft/20ft wind in chosen direction, crea pushed 30ft, 1d12 cold dmg & prone, disadv in cold/dark",
@@ -3270,7 +3526,9 @@
 			"components_material": "a pheasant feather",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Summon strong breeze in chosen direction, levitate 3ft, travel 150% speed in chosen direction",
@@ -3294,7 +3552,9 @@
 			"components_material": "a piece of charcoal",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 bns"
+				"short": "1 bns",
+				"base": "1 bonus action",
+				"icon": 1
 			},
 			"description": {
 				"short": "Create flame bird, bright light, distracts enemies in 30ft, disadv on rolls, 1d4 dmg on fail, see b",
@@ -3318,7 +3578,9 @@
 			"components_material": "a petal from a white lily",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Deadly poison bursts, crea save or 6d8 necrotic dmg, half on failed save",
@@ -3343,7 +3605,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Area bathed in moonlight, highlights hidden obj, locations and clues, percep/invest checks get adv",
@@ -3367,7 +3631,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Illuminate all threats/enemies/traps/hazards with shafts of moonlight, show area of hidden crea",
@@ -3391,7 +3657,9 @@
 			"components_material": "a posy of flowers",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Shower of flowers 10 10ft cubes, +10d6 hp or cured of diseases and conditions, enemies 10d10 necro dmg, see b",
@@ -3415,7 +3683,9 @@
 			"components_material": "a piece of amber worth at least 50 gp",
 			"duration": "10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Summon dome of amber, fit 12 med crea, other crea barred from entry, can't cast within dome",
@@ -3440,7 +3710,8 @@
 			"duration": "1 rd",
 			"casting_time": {
 				"short": "rea",
-				"base": "1 reaction, which you take when a friendly creature you can see within 60 feet of you is reduced to 0 HP"
+				"base": "1 reaction, which you take when a friendly creature you can see within 60 feet of you is reduced to 0 HP",
+				"icon": 3
 			},
 			"description": {
 				"short": "A protective cocoon surrounds 1 crea,  5d8 + 3 x spell ability mod protection/healing, see b",
@@ -3464,7 +3735,9 @@
 			"components_material": "",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "All trees and plants 40ft rad into ground, diff terrain becomes clear ground, plants rise on spell end",
@@ -3488,7 +3761,9 @@
 			"components_material": "",
 			"duration": "1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Summon 20ft rad mist, obscures, lightng dmg spreads to other crea then disperses mist, save halves",
@@ -3513,7 +3788,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Nearby nonmagical fire protects you, +2 to AC, expend fire to absorb fire dmg",
@@ -3537,7 +3814,9 @@
 			"components_material": "an obsidian acorn worth at least 500 gp, which is consumed in the casting",
 			"duration": "1 year",
 			"casting_time": {
-				"short": "1 h"
+				"short": "1 h",
+				"base": "1 hour(s)",
+				"icon": 3
 			},
 			"description": {
 				"short": "Curse the land, area in 1 mile becomes infertile, see book",
@@ -3561,7 +3840,9 @@
 			"components_material": "a bundle of aromatic herbs or incense either of which must be worth at least 100 gp",
 			"duration": "24 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "ward an entryway, on failed save crea are turned away from area and forgets intent.",
@@ -3585,7 +3866,9 @@
 			"components_material": "Marsh water",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "devour all wood and leather in the area, held items need dex save, magical items unaffected.",
@@ -3609,7 +3892,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Next time weapon used, break nonmagic shield or -2 penalty to nonmagic armor AC",
@@ -3633,7 +3918,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Plant dreams affect nearby crea, various effects, save or be affected, see b",
@@ -3657,7 +3944,9 @@
 			"components_material": "",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Step into dream of crea known to you, can influence the dream, see b",
@@ -3681,7 +3970,9 @@
 			"components_material": "an eel's eye",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Smmn 2 lightning eels, each can melee spell atk crea in 5 ft, 2d6 + spell mod dmg, rpt on bns",
@@ -3706,7 +3997,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 rea",
-				"base": "1 reaction, which you take when a creature you can see uses a feature or casts a spell that requires a saving throw to avoid or reduce acid, cold, fire, lightning, or thunder damage"
+				"base": "1 reaction, which you take when a creature you can see uses a feature or casts a spell that requires a saving throw to avoid or reduce acid, cold, fire, lightning, or thunder damage",
+				"icon": 2
 			},
 			"description": {
 				"short": "Twist properties of a spell from one element into another, save or change to element of your choice.",
@@ -3730,7 +4022,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 bns"
+				"short": "1 bns",
+				"base": "1 bonus action",
+				"icon": 1
 			},
 			"description": {
 				"short": "Infuse ally's weapon with either acid/cold/fire/lightn/poison/thunder dmg",
@@ -3755,7 +4049,9 @@
 			"components_material": "A pinch of ash wrapped in snakeskin",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea save or grappled by fiery serpents, 4d6 fire dmg, 2d6 each round",
@@ -3780,7 +4076,9 @@
 			"components_material": "a moonstone worth 500 gp",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Fill mind of humanoid with ideas of the fey, save or bewildered, see b",
@@ -3805,7 +4103,9 @@
 			"components_material": "A piece of magnetized iron",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Electrify metal object e.g. weapon/armor, 1d8 lightning dmg, cant take reactions, repeat dmg on bns",
@@ -3830,7 +4130,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea save or take 3d6 fire dmg from your inner fire, allies nearby can give extra 1d6 each",
@@ -3856,7 +4158,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 a",
-				"base": "1 reaction, which you take in response to being grappled or swallowed whole"
+				"base": "1 reaction, which you take in response to being grappled or swallowed whole",
+				"icon": 0
 			},
 			"description": {
 				"short": "1 crea save or you break grapple/swallow and magically enter and exit their body, 3d12 necro dmg",
@@ -3881,7 +4184,9 @@
 			"components_material": "a stone submerged in a jar of seawater",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Conjure mini hurricane, 40ft cylinder 20ft rad save or 3d6 cold dmg, speed halved",
@@ -3905,7 +4210,9 @@
 			"components_material": "a cracked bone",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "3 crea of choice save or subtract 1d8 from attack rolls or saving throws.",
@@ -3930,7 +4237,9 @@
 			"components_material": "A sun-bleached wind instrument carved from wood",
 			"duration": "Conc, 1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Nonmagical smoke/clouds/fog within 1 mile clear, you can't become lost",
@@ -3954,7 +4263,9 @@
 			"components_material": "a dandelion stalk",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Magic dandelion, ranged spell attack to send glowing seeds, 3d6 rad dmg, repeat as action",
@@ -3979,7 +4290,9 @@
 			"components_material": "",
 			"duration": "1 h",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Summon rains 30ft rad, difficult terrain for enemies, reroll 1s on dmg die for cold/lightning spells",
@@ -4003,7 +4316,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Exhale searing wind, save or 5d8 fire dmg and pushed to cone edge, ignites obj, disperse gas",
@@ -4029,7 +4344,8 @@
 			"duration": "Instantaneous",
 			"casting_time": {
 				"short": "1 a",
-				"base": "1 reaction, which you take when "
+				"base": "1 reaction, which you take when ",
+				"icon": 0
 			},
 			"description": {
 				"short": "60x10ft line ",
@@ -4053,7 +4369,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 bns"
+				"short": "1 bns",
+				"base": "1 bonus action",
+				"icon": 1
 			},
 			"description": {
 				"short": "Assume the form of Emissary (wis/int based save bonus) or Envoy (str/dex based save bonus) see b",
@@ -4077,7 +4395,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Divine/nature spirit, you + 1 ally gain spellcasting modifier HP, end charmed/frightened condition",
@@ -4102,7 +4422,9 @@
 			"components_material": "",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Torrent of water 30x5ft line,save or 3d6 bludg dmg, pushed 15ft away, prone",
@@ -4127,7 +4449,9 @@
 			"components_material": "A piece of fulgurite",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Teleport 120 ft, crea in 5 ft save or 1d12 dmg, repeat each rd, see b",
@@ -4152,7 +4476,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Teleport with clap of thunder, crea in 5ft of origin and destination save or 2d6 thunder dmg",
@@ -4177,7 +4503,9 @@
 			"components_material": "wheat dipped in giant's blood",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Magical threshing blade cone, save or 6d10 slash dmg, on fail is lacerated, 1d10 dmg each turn",
@@ -4202,7 +4530,9 @@
 			"components_material": "a bit of flesh from a fiend, or a feather from a celestial, either worth at least 50 gp",
 			"duration": "Conc, 10 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Change body, gain 3 effects, bns a to change effect,",
@@ -4226,7 +4556,9 @@
 			"components_material": "",
 			"duration": "Instantaneous",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Wave of water 30ftx10ft line, save or 8d8 bludg dmg, pushed 15ft, knocked prone",
@@ -4251,7 +4583,9 @@
 			"components_material": "a pinch of quail down",
 			"duration": "Conc, 1 min",
 			"casting_time": {
-				"short": "1 a"
+				"short": "1 a",
+				"base": "1 action",
+				"icon": 0
 			},
 			"description": {
 				"short": "Blast of air launches crea, save or thrown up to 60ft, if hits ceiling takes fall dmg or floats until spell ends",
