@@ -5,3 +5,6 @@ export class EmptySpellFilter implements SpellFilter {
 	rituals = [];
 	selectable = [];
 }
+
+// Next: Create a spell filter for source or one of the others. Constructor takes objects;
+// the construction function does the asyinc load from the json file and passes in the results.
