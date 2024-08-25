@@ -5,7 +5,7 @@ import MainNav from './components/MainNav.vue'
 
 <template>
   <MainNav class="header" />
-  <RouterView class="main" />
+  <RouterView />
 </template>
 <style>
 #app {
@@ -20,14 +20,6 @@ import MainNav from './components/MainNav.vue'
   grid-area: header;
 }
 
-.main {
-  grid-area: main;
-}
-
-.sidebar {
-  grid-area: sidebar;
-}
-
 @media print {
   #app {
     grid: "main" auto / auto;
@@ -38,10 +30,6 @@ import MainNav from './components/MainNav.vue'
   }
 
   .header {
-    display: none;
-  }
-
-  .sidebar {
     display: none;
   }
 }
