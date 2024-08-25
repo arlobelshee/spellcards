@@ -3,10 +3,11 @@
     "kind": "character",
     "name": "Fedele Pons Civitas",
     "spells": [
-        "0-guidance",
-        "0-firebolt"
+        "arcane parasite",
+        "agonizing mark",
+        "aledritch blast"
     ],
     "already_printed": [
-        "0-guidance"
+        "arcane parasite"
     ]
 }
