@@ -1,9 +1,11 @@
 <script setup lang="ts">
 import { useRoute } from "vue-router";
 import { ref, watchEffect } from "vue";
-import all_spells from "@/assets/all_spells.json";
+import { storeToRefs } from "pinia";
+import { useSpellsStore } from "@/stores/active_cards_store";
 
 const props = defineProps<{ category: string }>();
+const { all_spells } = storeToRefs(useSpellsStore());
 const sheet_data = ref({});
 watchEffect(
   async () => (sheet_data.value = await import(`../assets/${props.category}/${useRoute().params.slug}.json`)),

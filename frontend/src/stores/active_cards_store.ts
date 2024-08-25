@@ -1,7 +1,7 @@
 import { defineStore } from "pinia";
-import all_cards from "@/assets/all_spells.json";
+import all_spells from "@/assets/all_spells.json";
 
-export const useUserStore = defineStore("cards.active", {
-	state: () => ({ all_cards }),
+export const useSpellsStore = defineStore("spells.active", {
+	state: () => ({ all_spells }),
 	actions: {},
 });
