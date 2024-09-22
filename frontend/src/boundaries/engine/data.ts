@@ -17,7 +17,9 @@ export type DataForCharacter = VersionedData & {
 	kind: "character";
 	name: string;
 	spells: string[];
-	already_printed: string[];
+	spells_printed: string[];
+	rituals_printed: string[];
+	selectors_printed: string[];
 };
 export type DataForClass = VersionedData & {
 	kind: "class";
@@ -53,7 +55,7 @@ export type DataForSingleSpell = {
 		short: string;
 		base: string;
 	};
-	sources: [string, number][];
+	sources: (string | number)[][];
 };
 export type DataForSpellDetails = VersionedData & {
 	kind: "spell-list";

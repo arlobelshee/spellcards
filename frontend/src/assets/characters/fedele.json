@@ -7,7 +7,9 @@
         "agonizing mark",
         "aledritch blast"
     ],
-    "already_printed": [
+    "spells_printed": [
         "arcane parasite"
-    ]
+    ],
+    "rituals_printed": [],
+    "selectors_printed": []
 }

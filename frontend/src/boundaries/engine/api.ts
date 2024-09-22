@@ -1,6 +1,9 @@
-export type SpellSelectionData = { id: string; already_printed: boolean };
+import type { DataForSingleSpell } from "./data";
+
+export type SpellSelectionData = { spell: DataForSingleSpell; already_printed: boolean };
+
 export interface SpellFilter {
-	descriptions: SpellSelectionData[];
-	rituals: SpellSelectionData[];
-	selectable: SpellSelectionData[];
+	readonly descriptions: SpellSelectionData[];
+	readonly rituals: SpellSelectionData[];
+	readonly selectable: SpellSelectionData[];
 }
