@@ -1,4 +1,18 @@
-export type VersionedData = { version: number; kind: "character" | "class" | "source" };
+export enum CastingTime {
+	Action,
+	Bonus,
+	Reaction,
+	Long,
+}
+export namespace Icons {
+	export enum CastingTime {
+		Action,
+		Bonus,
+		Reaction,
+		Long,
+	}
+}
+export type VersionedData = { version: number; kind: "character" | "class" | "source" | "spell-list" };
 export type DataForCharacter = VersionedData & {
 	kind: "character";
 	name: string;
@@ -19,4 +33,29 @@ export type DataForSource = VersionedData & {
 	abbreviation_spellsheet: string;
 	url: string;
 	spells: string[];
+};
+export type DataForSingleSpell = {
+	id: string;
+	name: string;
+	name_short: string;
+	level: number;
+	range: string;
+	school: string;
+	components: string;
+	components_material: string;
+	duration: string;
+	casting_time: {
+		short: string;
+		base: string;
+		icon: Icons.CastingTime;
+	};
+	description: {
+		short: string;
+		base: string;
+	};
+	sources: [string, number][];
+};
+export type DataForSpellDetails = VersionedData & {
+	kind: "spell-list";
+	spells: Record<string, DataForSingleSpell>;
 };

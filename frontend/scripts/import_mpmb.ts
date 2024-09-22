@@ -2,20 +2,14 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import console from "node:console";
-
-enum CastingTime {
-	Action,
-	Bonus,
-	Reaction,
-	Long,
-}
-const Icons = { CastingTime };
+import { Icons } from "../src/boundaries/engine/data";
 
 const AtHigherLevels = "MARKER_AT_HIGHER_LEVELS";
 type DestSpell = {
 	id: string;
 	name: string;
 	name_short: string;
+	level: number;
 	range: string;
 	school:
 		| "Abjur"
@@ -31,7 +25,7 @@ type DestSpell = {
 		| "Immor"
 		| "Nomad"
 		| "Wu Jen";
-	casting_time: { short: string; base: string; icon: CastingTime };
+	casting_time: { short: string; base: string; icon: Icons.CastingTime };
 	components: string;
 	components_material: string;
 	duration: string;
@@ -97,7 +91,6 @@ type SourceSpell = {
 const KeysToKeepUnalteredForSpell = [
 	["name", "name"],
 	["nameShort", "name_short"],
-	["level", "level"],
 	["range", "range"],
 	["school", "school"],
 	["components", "components"],
@@ -195,6 +188,11 @@ function get_interesting_data(input: { spells: Record<string, SourceSpell>; sour
 			...(Object.fromEntries(
 				KeysToKeepUnalteredForSpell.map((key) => [key[1], new_spell[1][key[0]] || ""]),
 			) as ImportedSpell),
+			level: new_spell[1].level
+				? typeof new_spell[1].level === "number"
+					? new_spell[1].level
+					: Number.parseInt(new_spell[1].level as string)
+				: 0,
 			casting_time: {
 				short: new_spell[1].time,
 				base: new_spell[1].timeFull,
@@ -249,7 +247,7 @@ function get_interesting_raw_data(script: string) {
 	return results;
 }
 
-function full_casting_time_from(abbreviation: string): { base: string; icon: CastingTime } {
+function full_casting_time_from(abbreviation: string): { base: string; icon: Icons.CastingTime } {
 	if (abbreviation === "1 a") return { base: "1 action", icon: Icons.CastingTime.Action };
 	if (abbreviation === "1 bns") return { base: "1 bonus action", icon: Icons.CastingTime.Bonus };
 	if (abbreviation === "1 rea") return { base: "1 reaction", icon: Icons.CastingTime.Reaction };
