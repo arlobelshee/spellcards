@@ -1,15 +1,9 @@
 <script setup lang="ts">
-import { useRoute } from "vue-router";
-import { ref, watchEffect } from "vue";
 import { storeToRefs } from "pinia";
 import { useSpellsStore } from "@/stores/active_cards_store";
 
 const props = defineProps<{ category: string }>();
-const { all_spells } = storeToRefs(useSpellsStore());
-const sheet_data = ref({});
-watchEffect(
-  async () => (sheet_data.value = await import(`../assets/${props.category}/${useRoute().params.slug}.json`)),
-);
+const { all_spells, active_spells } = storeToRefs(useSpellsStore());
 </script>
 
 <template>
@@ -125,7 +119,5 @@ watchEffect(
     <li>For all spells list: Dunno. Just show all the spells in large format?</li>
   </ul>
   <p>Stuff to show:</p>
-  <div>{{ JSON.stringify(sheet_data) }}</div>
-  <p>All spells:</p>
-  <div>{{ JSON.stringify(all_spells) }}</div>
+  <div>{{ JSON.stringify(active_spells) }}</div>
 </template>
