@@ -7,8 +7,19 @@ const { all_spells, active_spells } = storeToRefs(useSpellsStore());
 </script>
 
 <template>
-  <h1>Put lots of cards here!</h1>
-  <p>Notes:</p>
+  <h1>Spell book</h1>
+  <template v-for="known in active_spells.descriptions" :key="known.spell.id">
+    <template v-if="!known.already_printed">
+      <div class="full-size card">
+        <h2>{{ known.spell.name }}</h2>
+        <div class="card-body">{{ known.spell.description.base }}</div>
+      </div>
+    </template>
+  </template>
+  <h1>Memorization Tokens</h1>
+  <h1>Counters Page</h1>
+  <h1>Spell Loadouts</h1>
+  <h1>Notes:</h1>
   <ul>
     <li>
       For characters:
@@ -21,8 +32,7 @@ const { all_spells, active_spells } = storeToRefs(useSpellsStore());
               Or maybe the spellbook book. Haven't decided yet.
             </li>
             <li>
-              Each is sized like a "full" card, so can print them and slot them easily into regular card pages.
-            </li>
+              Each is sized like a " full" card, so can print them and slot them easily into regular card pages. </li>
             <li>
               Each contains several printed rituals, which look like sub-cards. Together, this lets me easily print
               a ritual book as a set of cards & put them in a sleeve page.
@@ -118,6 +128,4 @@ const { all_spells, active_spells } = storeToRefs(useSpellsStore());
     <li>For sources: Dunno. Just show all the spells in large format?</li>
     <li>For all spells list: Dunno. Just show all the spells in large format?</li>
   </ul>
-  <p>Stuff to show:</p>
-  <div>{{ JSON.stringify(active_spells) }}</div>
 </template>
