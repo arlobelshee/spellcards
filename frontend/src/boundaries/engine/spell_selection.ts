@@ -11,7 +11,7 @@ class BasicSpellFilter implements SpellFilter {
 		this.selectable = this.descriptions.map((d) => ({ ...d }));
 	}
 	protected is_ritual(spell: DataForSingleSpell): boolean {
-		return false;
+		return spell.ritual;
 	}
 	readonly descriptions: SpellSelectionData[];
 	readonly rituals: SpellSelectionData[];

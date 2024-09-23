@@ -16,6 +16,15 @@ const { all_spells, active_spells } = storeToRefs(useSpellsStore());
       </div>
     </template>
   </template>
+  <h1>Ritual book</h1>
+  <template v-for="known in active_spells.rituals" :key="known.spell.id">
+    <template v-if="!known.already_printed">
+      <div class="middle-size card">
+        <h2>{{ known.spell.name }}</h2>
+        <div class="card-body">{{ known.spell.description.short }}</div>
+      </div>
+    </template>
+  </template>
   <h1>Memorization Tokens</h1>
   <h1>Counters Page</h1>
   <h1>Spell Loadouts</h1>

@@ -56,6 +56,7 @@ export type DataForSingleSpell = {
 		base: string;
 	};
 	sources: (string | number)[][];
+	ritual: boolean;
 };
 export type DataForSpellDetails = VersionedData & {
 	kind: "spell-list";

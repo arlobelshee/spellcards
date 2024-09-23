@@ -26,7 +26,8 @@
 					"DM1",
 					141
 				]
-			]
+			],
+			"ritual": false
 		},
 		"accelerate": {
 			"id": "accelerate",
@@ -53,7 +54,8 @@
 					"DM1",
 					142
 				]
-			]
+			],
+			"ritual": false
 		},
 		"acumen": {
 			"id": "acumen",
@@ -79,7 +81,8 @@
 					"DM1",
 					142
 				]
-			]
+			],
+			"ritual": false
 		},
 		"agonizing mark": {
 			"id": "agonizing mark",
@@ -105,7 +108,8 @@
 					"DM1",
 					143
 				]
-			]
+			],
+			"ritual": false
 		},
 		"aledritch blast": {
 			"id": "aledritch blast",
@@ -132,7 +136,8 @@
 					"DM1",
 					143
 				]
-			]
+			],
+			"ritual": false
 		},
 		"allure": {
 			"id": "allure",
@@ -158,7 +163,8 @@
 					"DM1",
 					143
 				]
-			]
+			],
+			"ritual": false
 		},
 		"alter arrows fortune": {
 			"id": "alter arrows fortune",
@@ -184,7 +190,8 @@
 					"DM1",
 					144
 				]
-			]
+			],
+			"ritual": false
 		},
 		"ancestors strength": {
 			"id": "ancestors strength",
@@ -210,7 +217,8 @@
 					"DM1",
 					145
 				]
-			]
+			],
+			"ritual": false
 		},
 		"anchoring rope": {
 			"id": "anchoring rope",
@@ -237,7 +245,8 @@
 					"DM1",
 					145
 				]
-			]
+			],
+			"ritual": false
 		},
 		"animal spy": {
 			"id": "animal spy",
@@ -263,7 +272,8 @@
 					"DM1",
 					146
 				]
-			]
+			],
+			"ritual": false
 		},
 		"animated scroll": {
 			"id": "animated scroll",
@@ -289,7 +299,8 @@
 					"DM1",
 					147
 				]
-			]
+			],
+			"ritual": false
 		},
 		"anticipate attack": {
 			"id": "anticipate attack",
@@ -315,7 +326,8 @@
 					"DM1",
 					147
 				]
-			]
+			],
+			"ritual": false
 		},
 		"anticipate weakness": {
 			"id": "anticipate weakness",
@@ -341,7 +353,8 @@
 					"DM1",
 					147
 				]
-			]
+			],
+			"ritual": false
 		},
 		"arcane parasite": {
 			"id": "arcane parasite",
@@ -367,7 +380,8 @@
 					"DM1",
 					147
 				]
-			]
+			],
+			"ritual": true
 		},
 		"aspect of the ape": {
 			"id": "aspect of the ape",
@@ -393,7 +407,8 @@
 					"DM1",
 					148
 				]
-			]
+			],
+			"ritual": false
 		},
 		"aspect of the ram": {
 			"id": "aspect of the ram",
@@ -419,7 +434,8 @@
 					"DM1",
 					150
 				]
-			]
+			],
+			"ritual": false
 		},
 		"aspect of the serpent": {
 			"id": "aspect of the serpent",
@@ -446,7 +462,8 @@
 					"DM1",
 					151
 				]
-			]
+			],
+			"ritual": false
 		},
 		"avoid grevious injury": {
 			"id": "avoid grevious injury",
@@ -472,7 +489,8 @@
 					"DM1",
 					152
 				]
-			]
+			],
+			"ritual": false
 		},
 		"awaken object": {
 			"id": "awaken object",
@@ -498,7 +516,8 @@
 					"DM1",
 					152
 				]
-			]
+			],
+			"ritual": false
 		},
 		"batsense": {
 			"id": "batsense",
@@ -524,7 +543,8 @@
 					"DM1",
 					153
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bewilderment": {
 			"id": "bewilderment",
@@ -550,7 +570,8 @@
 					"DM1",
 					154
 				]
-			]
+			],
+			"ritual": false
 		},
 		"biting arrow": {
 			"id": "biting arrow",
@@ -576,7 +597,8 @@
 					"DM1",
 					154
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bless the dead": {
 			"id": "bless the dead",
@@ -602,7 +624,8 @@
 					"DM1",
 					157
 				]
-			]
+			],
+			"ritual": false
 		},
 		"blood offering": {
 			"id": "blood offering",
@@ -628,7 +651,8 @@
 					"DM1",
 					159
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bloodhound": {
 			"id": "bloodhound",
@@ -655,7 +679,8 @@
 					"DM1",
 					161
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bloody smite": {
 			"id": "bloody smite",
@@ -681,7 +706,8 @@
 					"DM1",
 					161
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bones of stone": {
 			"id": "bones of stone",
@@ -707,7 +733,8 @@
 					"DM1",
 					162
 				]
-			]
+			],
+			"ritual": false
 		},
 		"boulder toss": {
 			"id": "boulder toss",
@@ -735,7 +762,8 @@
 					"DM1",
 					163
 				]
-			]
+			],
+			"ritual": false
 		},
 		"brawn boost": {
 			"id": "brawn boost",
@@ -761,7 +789,8 @@
 					"DM1",
 					164
 				]
-			]
+			],
+			"ritual": false
 		},
 		"breathtaking wind": {
 			"id": "breathtaking wind",
@@ -787,7 +816,8 @@
 					"DM1",
 					164
 				]
-			]
+			],
+			"ritual": false
 		},
 		"breeze compass": {
 			"id": "breeze compass",
@@ -813,7 +843,8 @@
 					"DM1",
 					164
 				]
-			]
+			],
+			"ritual": false
 		},
 		"brittling": {
 			"id": "brittling",
@@ -839,7 +870,8 @@
 					"DM1",
 					164
 				]
-			]
+			],
+			"ritual": false
 		},
 		"carmellovoltas irksome preserves": {
 			"id": "carmellovoltas irksome preserves",
@@ -865,7 +897,8 @@
 					"DM1",
 					165
 				]
-			]
+			],
+			"ritual": false
 		},
 		"caustic blood": {
 			"id": "caustic blood",
@@ -892,7 +925,8 @@
 					"DM1",
 					166
 				]
-			]
+			],
+			"ritual": false
 		},
 		"caustic touch": {
 			"id": "caustic touch",
@@ -919,7 +953,8 @@
 					"DM1",
 					166
 				]
-			]
+			],
+			"ritual": false
 		},
 		"clash of glaciers": {
 			"id": "clash of glaciers",
@@ -946,7 +981,8 @@
 					"DM1",
 					171
 				]
-			]
+			],
+			"ritual": false
 		},
 		"clumsiness": {
 			"id": "clumsiness",
@@ -972,7 +1008,8 @@
 					"DM1",
 					173
 				]
-			]
+			],
+			"ritual": false
 		},
 		"comprehend wild shape": {
 			"id": "comprehend wild shape",
@@ -999,7 +1036,8 @@
 					"DM1",
 					174
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure fey hound": {
 			"id": "conjure fey hound",
@@ -1026,7 +1064,8 @@
 					"DM1",
 					174
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure forest defender": {
 			"id": "conjure forest defender",
@@ -1053,7 +1092,8 @@
 					"DM1",
 					174
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure mock animals": {
 			"id": "conjure mock animals",
@@ -1079,7 +1119,8 @@
 					"DM1",
 					176
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure scarab swarm": {
 			"id": "conjure scarab swarm",
@@ -1105,7 +1146,8 @@
 					"DM1",
 					176
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure undead": {
 			"id": "conjure undead",
@@ -1132,7 +1174,8 @@
 					"DM1",
 					177
 				]
-			]
+			],
+			"ritual": false
 		},
 		"consult the storm": {
 			"id": "consult the storm",
@@ -1159,7 +1202,8 @@
 					"DM1",
 					177
 				]
-			]
+			],
+			"ritual": false
 		},
 		"control ice": {
 			"id": "control ice",
@@ -1185,7 +1229,8 @@
 					"DM1",
 					177
 				]
-			]
+			],
+			"ritual": false
 		},
 		"creeping ice": {
 			"id": "creeping ice",
@@ -1212,7 +1257,8 @@
 					"DM1",
 					178
 				]
-			]
+			],
+			"ritual": false
 		},
 		"crushing trample": {
 			"id": "crushing trample",
@@ -1238,7 +1284,8 @@
 					"DM1",
 					179
 				]
-			]
+			],
+			"ritual": false
 		},
 		"cure beast": {
 			"id": "cure beast",
@@ -1265,7 +1312,8 @@
 					"DM1",
 					180
 				]
-			]
+			],
+			"ritual": false
 		},
 		"curse of dust": {
 			"id": "curse of dust",
@@ -1291,7 +1339,8 @@
 					"DM1",
 					1
 				]
-			]
+			],
+			"ritual": false
 		},
 		"cynophobia": {
 			"id": "cynophobia",
@@ -1318,7 +1367,8 @@
 					"DM1",
 					182
 				]
-			]
+			],
+			"ritual": false
 		},
 		"dark heraldry": {
 			"id": "dark heraldry",
@@ -1346,7 +1396,8 @@
 					"DM1",
 					182
 				]
-			]
+			],
+			"ritual": false
 		},
 		"decay": {
 			"id": "decay",
@@ -1373,7 +1424,8 @@
 					"DM1",
 					184
 				]
-			]
+			],
+			"ritual": false
 		},
 		"decelerate": {
 			"id": "decelerate",
@@ -1400,7 +1452,8 @@
 					"DM1",
 					184
 				]
-			]
+			],
+			"ritual": false
 		},
 		"deep breath": {
 			"id": "deep breath",
@@ -1427,7 +1480,8 @@
 					"DM1",
 					185
 				]
-			]
+			],
+			"ritual": false
 		},
 		"deep focus": {
 			"id": "deep focus",
@@ -1454,7 +1508,8 @@
 					"DM1",
 					184
 				]
-			]
+			],
+			"ritual": true
 		},
 		"defensive quills": {
 			"id": "defensive quills",
@@ -1480,7 +1535,8 @@
 					"DM1",
 					184
 				]
-			]
+			],
+			"ritual": false
 		},
 		"desiccating breath": {
 			"id": "desiccating breath",
@@ -1506,7 +1562,8 @@
 					"DM1",
 					186
 				]
-			]
+			],
+			"ritual": false
 		},
 		"detect dragons": {
 			"id": "detect dragons",
@@ -1532,7 +1589,8 @@
 					"DM1",
 					186
 				]
-			]
+			],
+			"ritual": false
 		},
 		"disruptive aura": {
 			"id": "disruptive aura",
@@ -1559,7 +1617,8 @@
 					"DM1",
 					187
 				]
-			]
+			],
+			"ritual": false
 		},
 		"distraction cascade": {
 			"id": "distraction cascade",
@@ -1585,7 +1644,8 @@
 					"DM1",
 					187
 				]
-			]
+			],
+			"ritual": false
 		},
 		"draconic smite": {
 			"id": "draconic smite",
@@ -1612,7 +1672,8 @@
 					"DM1",
 					188
 				]
-			]
+			],
+			"ritual": false
 		},
 		"drown": {
 			"id": "drown",
@@ -1639,7 +1700,8 @@
 					"DM1",
 					189
 				]
-			]
+			],
+			"ritual": false
 		},
 		"dryads kiss": {
 			"id": "dryads kiss",
@@ -1666,7 +1728,8 @@
 					"DM1",
 					189
 				]
-			]
+			],
+			"ritual": false
 		},
 		"ears of the bat": {
 			"id": "ears of the bat",
@@ -1692,7 +1755,8 @@
 					"DM1",
 					190
 				]
-			]
+			],
+			"ritual": false
 		},
 		"earth wave": {
 			"id": "earth wave",
@@ -1718,7 +1782,8 @@
 					"DM1",
 					190
 				]
-			]
+			],
+			"ritual": false
 		},
 		"eidetic memory": {
 			"id": "eidetic memory",
@@ -1744,7 +1809,8 @@
 					"DM1",
 					191
 				]
-			]
+			],
+			"ritual": false
 		},
 		"elemental horns": {
 			"id": "elemental horns",
@@ -1771,7 +1837,8 @@
 					"DM1",
 					192
 				]
-			]
+			],
+			"ritual": false
 		},
 		"energy absorption": {
 			"id": "energy absorption",
@@ -1797,7 +1864,8 @@
 					"DM1",
 					193
 				]
-			]
+			],
+			"ritual": false
 		},
 		"energy foreknowledge": {
 			"id": "energy foreknowledge",
@@ -1824,7 +1892,8 @@
 					"DM1",
 					193
 				]
-			]
+			],
+			"ritual": false
 		},
 		"exceptional wit": {
 			"id": "exceptional wit",
@@ -1850,7 +1919,8 @@
 					"DM1",
 					194
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fault line": {
 			"id": "fault line",
@@ -1876,7 +1946,8 @@
 					"DM1",
 					195
 				]
-			]
+			],
+			"ritual": false
 		},
 		"feather field": {
 			"id": "feather field",
@@ -1903,7 +1974,8 @@
 					"DM1",
 					195
 				]
-			]
+			],
+			"ritual": false
 		},
 		"feather travel": {
 			"id": "feather travel",
@@ -1930,7 +2002,8 @@
 					"DM1",
 					196
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fey crown": {
 			"id": "fey crown",
@@ -1957,7 +2030,8 @@
 					"DM1",
 					196
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fire darts": {
 			"id": "fire darts",
@@ -1984,7 +2058,8 @@
 					"DM1",
 					197
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fire under the tongue": {
 			"id": "fire under the tongue",
@@ -2010,7 +2085,8 @@
 					"DM1",
 					197
 				]
-			]
+			],
+			"ritual": false
 		},
 		"firewalk": {
 			"id": "firewalk",
@@ -2037,7 +2113,8 @@
 					"DM1",
 					197
 				]
-			]
+			],
+			"ritual": false
 		},
 		"flurry": {
 			"id": "flurry",
@@ -2063,7 +2140,8 @@
 					"DM1",
 					199
 				]
-			]
+			],
+			"ritual": false
 		},
 		"forest affinity": {
 			"id": "forest affinity",
@@ -2090,7 +2168,8 @@
 					"DM1",
 					199
 				]
-			]
+			],
+			"ritual": false
 		},
 		"forest native": {
 			"id": "forest native",
@@ -2116,7 +2195,8 @@
 					"DM1",
 					199
 				]
-			]
+			],
+			"ritual": false
 		},
 		"forest of spears": {
 			"id": "forest of spears",
@@ -2142,7 +2222,8 @@
 					"DM1",
 					199
 				]
-			]
+			],
+			"ritual": false
 		},
 		"forest sanctuary": {
 			"id": "forest sanctuary",
@@ -2168,7 +2249,8 @@
 					"DM1",
 					200
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fortitude": {
 			"id": "fortitude",
@@ -2194,7 +2276,8 @@
 					"DM1",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"frailty": {
 			"id": "frailty",
@@ -2220,7 +2303,8 @@
 					"DM1",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"freeze potion": {
 			"id": "freeze potion",
@@ -2247,7 +2331,8 @@
 					"DM1",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"freezing fog": {
 			"id": "freezing fog",
@@ -2274,7 +2359,8 @@
 					"DM1",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"furious hooves": {
 			"id": "furious hooves",
@@ -2300,7 +2386,8 @@
 					"DM1",
 					202
 				]
-			]
+			],
+			"ritual": false
 		},
 		"gird the spirit": {
 			"id": "gird the spirit",
@@ -2326,7 +2413,8 @@
 					"DM1",
 					204
 				]
-			]
+			],
+			"ritual": false
 		},
 		"glacial fog": {
 			"id": "glacial fog",
@@ -2353,7 +2441,8 @@
 					"DM1",
 					204
 				]
-			]
+			],
+			"ritual": false
 		},
 		"gliding step": {
 			"id": "gliding step",
@@ -2380,7 +2469,8 @@
 					"DM1",
 					205
 				]
-			]
+			],
+			"ritual": false
 		},
 		"goats hoof charm": {
 			"id": "goats hoof charm",
@@ -2407,7 +2497,8 @@
 					"DM1",
 					205
 				]
-			]
+			],
+			"ritual": false
 		},
 		"going in circles": {
 			"id": "going in circles",
@@ -2433,7 +2524,8 @@
 					"DM1",
 					206
 				]
-			]
+			],
+			"ritual": false
 		},
 		"gordolays pleasant aroma": {
 			"id": "gordolays pleasant aroma",
@@ -2459,7 +2551,8 @@
 					"DM1",
 					206
 				]
-			]
+			],
+			"ritual": false
 		},
 		"green mantle": {
 			"id": "green mantle",
@@ -2486,7 +2579,8 @@
 					"DM1",
 					208
 				]
-			]
+			],
+			"ritual": false
 		},
 		"hunting stand": {
 			"id": "hunting stand",
@@ -2512,7 +2606,8 @@
 					"DM1",
 					213
 				]
-			]
+			],
+			"ritual": false
 		},
 		"ice burn": {
 			"id": "ice burn",
@@ -2539,7 +2634,8 @@
 					"DM1",
 					213
 				]
-			]
+			],
+			"ritual": false
 		},
 		"illuminate spoor": {
 			"id": "illuminate spoor",
@@ -2566,7 +2662,8 @@
 					"DM1",
 					215
 				]
-			]
+			],
+			"ritual": false
 		},
 		"intensify light": {
 			"id": "intensify light",
@@ -2592,7 +2689,8 @@
 					"DM1",
 					218
 				]
-			]
+			],
+			"ritual": false
 		},
 		"legion of rabid squirrels": {
 			"id": "legion of rabid squirrels",
@@ -2619,7 +2717,8 @@
 					"DM1",
 					223
 				]
-			]
+			],
+			"ritual": false
 		},
 		"life sense": {
 			"id": "life sense",
@@ -2645,7 +2744,8 @@
 					"DM1",
 					223
 				]
-			]
+			],
+			"ritual": false
 		},
 		"looping trail": {
 			"id": "looping trail",
@@ -2671,7 +2771,8 @@
 					"DM1",
 					225
 				]
-			]
+			],
+			"ritual": false
 		},
 		"maim": {
 			"id": "maim",
@@ -2697,7 +2798,8 @@
 					"DM1",
 					226
 				]
-			]
+			],
+			"ritual": false
 		},
 		"mire": {
 			"id": "mire",
@@ -2723,7 +2825,8 @@
 					"DM1",
 					228
 				]
-			]
+			],
+			"ritual": false
 		},
 		"mortal insight": {
 			"id": "mortal insight",
@@ -2749,7 +2852,8 @@
 					"DM1",
 					229
 				]
-			]
+			],
+			"ritual": false
 		},
 		"natures aegis": {
 			"id": "natures aegis",
@@ -2775,7 +2879,8 @@
 					"DM1",
 					230
 				]
-			]
+			],
+			"ritual": false
 		},
 		"necrotic leech": {
 			"id": "necrotic leech",
@@ -2802,7 +2907,8 @@
 					"DM1",
 					230
 				]
-			]
+			],
+			"ritual": false
 		},
 		"nightfall": {
 			"id": "nightfall",
@@ -2828,7 +2934,8 @@
 					"DM1",
 					231
 				]
-			]
+			],
+			"ritual": true
 		},
 		"Nip at the heels": {
 			"id": "Nip at the heels",
@@ -2855,7 +2962,8 @@
 					"DM1",
 					231
 				]
-			]
+			],
+			"ritual": false
 		},
 		"obtuse": {
 			"id": "obtuse",
@@ -2881,7 +2989,8 @@
 					"DM1",
 					232
 				]
-			]
+			],
+			"ritual": false
 		},
 		"poisoned volley": {
 			"id": "poisoned volley",
@@ -2908,7 +3017,8 @@
 					"DM1",
 					234
 				]
-			]
+			],
+			"ritual": false
 		},
 		"quench": {
 			"id": "quench",
@@ -2935,7 +3045,8 @@
 					"DM1",
 					237
 				]
-			]
+			],
+			"ritual": false
 		},
 		"quick time": {
 			"id": "quick time",
@@ -2962,7 +3073,8 @@
 					"DM1",
 					237
 				]
-			]
+			],
+			"ritual": false
 		},
 		"radiant beacon": {
 			"id": "radiant beacon",
@@ -2988,7 +3100,8 @@
 					"DM1",
 					236
 				]
-			]
+			],
+			"ritual": false
 		},
 		"reaver spirit": {
 			"id": "reaver spirit",
@@ -3015,7 +3128,8 @@
 					"DM1",
 					239
 				]
-			]
+			],
+			"ritual": false
 		},
 		"revive beast": {
 			"id": "revive beast",
@@ -3041,7 +3155,8 @@
 					"DM1",
 					240
 				]
-			]
+			],
+			"ritual": false
 		},
 		"shocking shroud": {
 			"id": "shocking shroud",
@@ -3067,7 +3182,8 @@
 					"DM1",
 					249
 				]
-			]
+			],
+			"ritual": false
 		},
 		"starfall": {
 			"id": "starfall",
@@ -3094,7 +3210,8 @@
 					"DM1",
 					255
 				]
-			]
+			],
+			"ritual": false
 		},
 		"storm form": {
 			"id": "storm form",
@@ -3120,7 +3237,8 @@
 					"DM1",
 					256
 				]
-			]
+			],
+			"ritual": false
 		},
 		"storm gods doom": {
 			"id": "storm gods doom",
@@ -3147,7 +3265,8 @@
 					"DM1",
 					257
 				]
-			]
+			],
+			"ritual": false
 		},
 		"sudden dawn": {
 			"id": "sudden dawn",
@@ -3173,7 +3292,8 @@
 					"DM1",
 					257
 				]
-			]
+			],
+			"ritual": true
 		},
 		"sudden stampede": {
 			"id": "sudden stampede",
@@ -3199,7 +3319,8 @@
 					"DM1",
 					257
 				]
-			]
+			],
+			"ritual": false
 		},
 		"thunderous wave": {
 			"id": "thunderous wave",
@@ -3225,7 +3346,8 @@
 					"DM1",
 					262
 				]
-			]
+			],
+			"ritual": false
 		},
 		"thorn cage": {
 			"id": "thorn cage",
@@ -3251,7 +3373,8 @@
 					"DM1",
 					261
 				]
-			]
+			],
+			"ritual": false
 		},
 		"tree running": {
 			"id": "tree running",
@@ -3277,7 +3400,8 @@
 					"DM1",
 					267
 				]
-			]
+			],
+			"ritual": false
 		},
 		"trick question": {
 			"id": "trick question",
@@ -3303,7 +3427,8 @@
 					"DM1",
 					268
 				]
-			]
+			],
+			"ritual": false
 		},
 		"volley shield": {
 			"id": "volley shield",
@@ -3329,7 +3454,8 @@
 					"DM1",
 					273
 				]
-			]
+			],
+			"ritual": false
 		},
 		"weilers ward": {
 			"id": "weilers ward",
@@ -3356,7 +3482,8 @@
 					"DM1",
 					276
 				]
-			]
+			],
+			"ritual": false
 		},
 		"winters radiance": {
 			"id": "winters radiance",
@@ -3382,7 +3509,8 @@
 					"DM1",
 					277
 				]
-			]
+			],
+			"ritual": false
 		},
 		"wresting wind": {
 			"id": "wresting wind",
@@ -3408,7 +3536,8 @@
 					"DM1",
 					279
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bark bulwark": {
 			"id": "bark bulwark",
@@ -3434,7 +3563,8 @@
 					"DM2",
 					141
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bartholomews elemental arc": {
 			"id": "bartholomews elemental arc",
@@ -3460,7 +3590,8 @@
 					"DM2",
 					141
 				]
-			]
+			],
+			"ritual": false
 		},
 		"beast essence": {
 			"id": "beast essence",
@@ -3486,7 +3617,8 @@
 					"DM1",
 					142
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bitter wind": {
 			"id": "bitter wind",
@@ -3513,7 +3645,8 @@
 					"DM2",
 					143
 				]
-			]
+			],
+			"ritual": false
 		},
 		"breeze walker": {
 			"id": "breeze walker",
@@ -3539,7 +3672,8 @@
 					"DM2",
 					146
 				]
-			]
+			],
+			"ritual": false
 		},
 		"brilliant harrier": {
 			"id": "brilliant harrier",
@@ -3565,7 +3699,8 @@
 					"DM2",
 					147
 				]
-			]
+			],
+			"ritual": false
 		},
 		"burst of pollen": {
 			"id": "burst of pollen",
@@ -3592,7 +3727,8 @@
 					"DM2",
 					148
 				]
-			]
+			],
+			"ritual": false
 		},
 		"by the light of the moon": {
 			"id": "by the light of the moon",
@@ -3618,7 +3754,8 @@
 					"DM2",
 					149
 				]
-			]
+			],
+			"ritual": false
 		},
 		"by the light of the watchful moon": {
 			"id": "by the light of the watchful moon",
@@ -3644,7 +3781,8 @@
 					"DM2",
 					149
 				]
-			]
+			],
+			"ritual": false
 		},
 		"chaotic flowerfall": {
 			"id": "chaotic flowerfall",
@@ -3670,7 +3808,8 @@
 					"DM1",
 					151
 				]
-			]
+			],
+			"ritual": false
 		},
 		"chamber of restoring amber": {
 			"id": "chamber of restoring amber",
@@ -3696,7 +3835,8 @@
 					"DM2",
 					151
 				]
-			]
+			],
+			"ritual": false
 		},
 		"chrysalis": {
 			"id": "chrysalis",
@@ -3722,7 +3862,8 @@
 					"DM2",
 					153
 				]
-			]
+			],
+			"ritual": false
 		},
 		"clearing the field": {
 			"id": "clearing the field",
@@ -3748,7 +3889,8 @@
 					"DM2",
 					153
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conductive vapors": {
 			"id": "conductive vapors",
@@ -3775,7 +3917,8 @@
 					"DM2",
 					155
 				]
-			]
+			],
+			"ritual": false
 		},
 		"court the flame": {
 			"id": "court the flame",
@@ -3801,7 +3944,8 @@
 					"DM2",
 					158
 				]
-			]
+			],
+			"ritual": false
 		},
 		"desolation": {
 			"id": "desolation",
@@ -3827,7 +3971,8 @@
 					"DM1",
 					163
 				]
-			]
+			],
+			"ritual": false
 		},
 		"diversion door": {
 			"id": "diversion door",
@@ -3853,7 +3998,8 @@
 					"DM2",
 					165
 				]
-			]
+			],
+			"ritual": false
 		},
 		"doom of the black river": {
 			"id": "doom of the black river",
@@ -3879,7 +4025,8 @@
 					"DM2",
 					170
 				]
-			]
+			],
+			"ritual": false
 		},
 		"doom of the cracked shield": {
 			"id": "doom of the cracked shield",
@@ -3905,7 +4052,8 @@
 					"DM2",
 					170
 				]
-			]
+			],
+			"ritual": false
 		},
 		"dream canopy": {
 			"id": "dream canopy",
@@ -3931,7 +4079,8 @@
 					"DM2",
 					172
 				]
-			]
+			],
+			"ritual": false
 		},
 		"dreamstride": {
 			"id": "dreamstride",
@@ -3957,7 +4106,8 @@
 					"DM2",
 					171
 				]
-			]
+			],
+			"ritual": false
 		},
 		"electric eels": {
 			"id": "electric eels",
@@ -3983,7 +4133,8 @@
 					"DM2",
 					175
 				]
-			]
+			],
+			"ritual": false
 		},
 		"elemental exchange": {
 			"id": "elemental exchange",
@@ -4009,7 +4160,8 @@
 					"DM1",
 					175
 				]
-			]
+			],
+			"ritual": false
 		},
 		"elemental infusion": {
 			"id": "elemental infusion",
@@ -4036,7 +4188,8 @@
 					"DM2",
 					175
 				]
-			]
+			],
+			"ritual": false
 		},
 		"everans scorching serpents": {
 			"id": "everans scorching serpents",
@@ -4063,7 +4216,8 @@
 					"DM2",
 					177
 				]
-			]
+			],
+			"ritual": false
 		},
 		"flight of ideas": {
 			"id": "flight of ideas",
@@ -4090,7 +4244,8 @@
 					"DM1",
 					181
 				]
-			]
+			],
+			"ritual": false
 		},
 		"galvanize metal": {
 			"id": "galvanize metal",
@@ -4117,7 +4272,8 @@
 					"DM2",
 					182
 				]
-			]
+			],
+			"ritual": false
 		},
 		"heartfire": {
 			"id": "heartfire",
@@ -4144,7 +4300,8 @@
 					"DM2",
 					187
 				]
-			]
+			],
+			"ritual": false
 		},
 		"krails rupture": {
 			"id": "krails rupture",
@@ -4171,7 +4328,8 @@
 					"DM2",
 					193
 				]
-			]
+			],
+			"ritual": false
 		},
 		"miniature hurricane": {
 			"id": "miniature hurricane",
@@ -4197,7 +4355,8 @@
 					"DM2",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"ominous winds": {
 			"id": "ominous winds",
@@ -4224,7 +4383,8 @@
 					"DM2",
 					205
 				]
-			]
+			],
+			"ritual": false
 		},
 		"part clouds": {
 			"id": "part clouds",
@@ -4250,7 +4410,8 @@
 					"DM2",
 					206
 				]
-			]
+			],
+			"ritual": false
 		},
 		"radiant rosette": {
 			"id": "radiant rosette",
@@ -4277,7 +4438,8 @@
 					"DM2",
 					212
 				]
-			]
+			],
+			"ritual": false
 		},
 		"rite of rain": {
 			"id": "rite of rain",
@@ -4303,7 +4465,8 @@
 					"DM2",
 					216
 				]
-			]
+			],
+			"ritual": true
 		},
 		"sear": {
 			"id": "sear",
@@ -4330,7 +4493,8 @@
 					"DM2",
 					217
 				]
-			]
+			],
+			"ritual": false
 		},
 		"seismic shift": {
 			"id": "seismic shift",
@@ -4356,7 +4520,8 @@
 					"DM1",
 					2
 				]
-			]
+			],
+			"ritual": false
 		},
 		"servant of doom": {
 			"id": "servant of doom",
@@ -4382,7 +4547,8 @@
 					"DM1",
 					218
 				]
-			]
+			],
+			"ritual": false
 		},
 		"spirit balm": {
 			"id": "spirit balm",
@@ -4409,7 +4575,8 @@
 					"DM2",
 					225
 				]
-			]
+			],
+			"ritual": false
 		},
 		"spray": {
 			"id": "spray",
@@ -4436,7 +4603,8 @@
 					"DM1",
 					226
 				]
-			]
+			],
+			"ritual": false
 		},
 		"storm door": {
 			"id": "storm door",
@@ -4463,7 +4631,8 @@
 					"DM2",
 					227
 				]
-			]
+			],
+			"ritual": false
 		},
 		"storm step": {
 			"id": "storm step",
@@ -4490,7 +4659,8 @@
 					"DM2",
 					228
 				]
-			]
+			],
+			"ritual": false
 		},
 		"thresh the battlefield": {
 			"id": "thresh the battlefield",
@@ -4517,7 +4687,8 @@
 					"DM2",
 					230
 				]
-			]
+			],
+			"ritual": false
 		},
 		"transmogrification": {
 			"id": "transmogrification",
@@ -4543,7 +4714,8 @@
 					"DM1",
 					231
 				]
-			]
+			],
+			"ritual": false
 		},
 		"weirding wake": {
 			"id": "weirding wake",
@@ -4570,7 +4742,8 @@
 					"DM1",
 					237
 				]
-			]
+			],
+			"ritual": false
 		},
 		"windblown": {
 			"id": "windblown",
@@ -4596,7 +4769,8 @@
 					"DM1",
 					238
 				]
-			]
+			],
+			"ritual": false
 		}
 	}
 }

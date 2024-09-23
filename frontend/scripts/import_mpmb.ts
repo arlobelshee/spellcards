@@ -31,6 +31,7 @@ type DestSpell = {
 	duration: string;
 	description: { short: string; base: string; upcast?: string; cantrip?: string };
 	sources: [string, number][];
+	ritual: boolean;
 };
 type DestSource = {
 	id: string;
@@ -40,7 +41,7 @@ type DestSource = {
 	url?: string;
 };
 type AllSpellsFileContents = { version: number; kind: "spell-list"; spells: Record<string, DestSpell> };
-type FilterFileKind = "character" | "source" | "class";
+type FilterFileKind = "spell-list" | "source" | "class";
 type SpellFilterFileContents = {
 	version: number;
 	kind: FilterFileKind;
@@ -87,6 +88,7 @@ type SourceSpell = {
 	source: [string, number] | [string, number][];
 	defaultExcluded?: boolean;
 	classes: string[];
+	ritual?: boolean;
 } & Record<string, unknown>;
 const KeysToKeepUnalteredForSpell = [
 	["name", "name"],
@@ -208,6 +210,7 @@ function get_interesting_data(input: { spells: Record<string, SourceSpell>; sour
 				new_spell[1].source.length === 2 && !Array.isArray(new_spell[1].source[0])
 					? [new_spell[1].source as [string, number]]
 					: (new_spell[1].source as [string, number][]),
+			ritual: !!new_spell[1].ritual,
 		};
 		for (const target of new_spell[1].classes) {
 			if (by_class[target]) by_class[target].push(imported_spell.id);
