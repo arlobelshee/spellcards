@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { storeToRefs } from "pinia";
 import { useSpellsStore } from "@/stores/active_cards_store";
+import Card from 'primevue/card';
 
 const props = defineProps<{ category: string }>();
 const { all_spells, active_spells } = storeToRefs(useSpellsStore());
@@ -8,23 +9,33 @@ const { all_spells, active_spells } = storeToRefs(useSpellsStore());
 
 <template>
   <h1>Spell book</h1>
-  <template v-for="known in active_spells.descriptions" :key="known.spell.id">
-    <template v-if="!known.already_printed">
-      <div class="full-size card">
-        <h2>{{ known.spell.name }}</h2>
-        <div class="card-body">{{ known.spell.description.base }}</div>
-      </div>
+  <div class="card-area">
+    <template v-for="known in active_spells.descriptions" :key="known.spell.id">
+      <template v-if="!known.already_printed">
+        <Card class="full-size">
+          <template #header></template>
+          <template #title>{{ known.spell.name }}</template>
+          <template #subtitle></template>
+          <template #content>{{ known.spell.description.base }}</template>
+          <template #footer></template>
+        </Card>
+      </template>
     </template>
-  </template>
+  </div>
   <h1>Ritual book</h1>
-  <template v-for="known in active_spells.rituals" :key="known.spell.id">
-    <template v-if="!known.already_printed">
-      <div class="middle-size card">
-        <h2>{{ known.spell.name }}</h2>
-        <div class="card-body">{{ known.spell.description.short }}</div>
-      </div>
+  <div class="card-area">
+    <template v-for="known in active_spells.rituals" :key="known.spell.id">
+      <template v-if="!known.already_printed">
+        <Card class="middle-size">
+          <template #header></template>
+          <template #title>{{ known.spell.name }}</template>
+          <template #subtitle></template>
+          <template #content>{{ known.spell.description.short }}</template>
+          <template #footer></template>
+        </Card>
+      </template>
     </template>
-  </template>
+  </div>
   <h1>Memorization Tokens</h1>
   <h1>Counters Page</h1>
   <h1>Spell Loadouts</h1>
@@ -138,3 +149,20 @@ const { all_spells, active_spells } = storeToRefs(useSpellsStore());
     <li>For all spells list: Dunno. Just show all the spells in large format?</li>
   </ul>
 </template>
+
+<style lang="css" scoped>
+.card-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.full-size.p-card {
+  width: 2.6in;
+  height: 3.9in;
+}
+
+.middle-size.p-card {
+  width: 1.3in;
+  height: 1.3in;
+}
+</style>

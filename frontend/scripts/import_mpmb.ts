@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import console from "node:console";
-import { Icons } from "../src/boundaries/engine/data";
+import { Icons } from "../src/boundaries/engine/data.ts";
 
 const AtHigherLevels = "MARKER_AT_HIGHER_LEVELS";
 type DestSpell = {

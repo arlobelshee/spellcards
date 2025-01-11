@@ -28,6 +28,7 @@ const preset = definePreset(Lara, {
 			950: "{purple.950}",
 		},
 	},
+	components: { card: { body: { padding: 0, gap: 0 } } },
 });
 
 app.use(PrimeVue, {
