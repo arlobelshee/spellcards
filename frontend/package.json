@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
-    "test:unit": "vitest",
+    "test": "vitest",
     "build-only": "vite build",
     "script:import-mpmb": "npx tsx ./scripts/import_mpmb.ts",
     "type-check": "vue-tsc --build --force",
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@primevue/themes": "^4.0.2",
+    "pinia": "^2.2.2",
     "primeicons": "^7.0.0",
     "primevue": "^4.0.2",
     "vue": "^3.4.29",

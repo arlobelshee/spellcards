@@ -6,12 +6,12 @@
 			"id": "abhorrence",
 			"name": "Abhorrence",
 			"name_short": "",
-			"level": "",
 			"range": "30 ft",
 			"school": "Ench",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -26,18 +26,19 @@
 					"DM1",
 					141
 				]
-			]
+			],
+			"ritual": false
 		},
 		"accelerate": {
 			"id": "accelerate",
 			"name": "Accelerate",
 			"name_short": "",
-			"level": 3,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a toy top",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -53,18 +54,19 @@
 					"DM1",
 					142
 				]
-			]
+			],
+			"ritual": false
 		},
 		"acumen": {
 			"id": "acumen",
 			"name": "Acumen",
 			"name_short": "",
-			"level": "",
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -79,18 +81,19 @@
 					"DM1",
 					142
 				]
-			]
+			],
+			"ritual": false
 		},
 		"agonizing mark": {
 			"id": "agonizing mark",
 			"name": "Agonizing Mark",
 			"name_short": "",
-			"level": 1,
 			"range": "90 ft",
 			"school": "Evoc",
 			"components": "S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -105,18 +108,19 @@
 					"DM1",
 					143
 				]
-			]
+			],
+			"ritual": false
 		},
 		"aledritch blast": {
 			"id": "aledritch blast",
 			"name": "Ale-dritch Blast",
 			"name_short": "",
-			"level": "",
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -132,18 +136,19 @@
 					"DM1",
 					143
 				]
-			]
+			],
+			"ritual": false
 		},
 		"allure": {
 			"id": "allure",
 			"name": "Allure",
 			"name_short": "",
-			"level": "",
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -158,18 +163,19 @@
 					"DM1",
 					143
 				]
-			]
+			],
+			"ritual": false
 		},
 		"alter arrows fortune": {
 			"id": "alter arrows fortune",
 			"name": "Alter Arrow's Fortune",
 			"name_short": "",
-			"level": 1,
 			"range": "100 ft",
 			"school": "Div",
 			"components": "S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 1,
 			"casting_time": {
 				"short": "1 rea",
 				"base": "1 reaction, which you take when an enemy makes a ranged attack that hits",
@@ -184,18 +190,19 @@
 					"DM1",
 					144
 				]
-			]
+			],
+			"ritual": false
 		},
 		"ancestors strength": {
 			"id": "ancestors strength",
 			"name": "Ancestor's Strength",
 			"name_short": "",
-			"level": 1,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 8 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -210,18 +217,19 @@
 					"DM1",
 					145
 				]
-			]
+			],
+			"ritual": false
 		},
 		"anchoring rope": {
 			"id": "anchoring rope",
 			"name": "Anchoring Rope",
 			"name_short": "",
-			"level": 1,
 			"range": "30 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "5 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a/rea",
 				"base": "1 action, or 1 reaction, which you take while falling",
@@ -237,18 +245,19 @@
 					"DM1",
 					145
 				]
-			]
+			],
+			"ritual": false
 		},
 		"animal spy": {
 			"id": "animal spy",
 			"name": "Animal Spy",
 			"name_short": "",
-			"level": 2,
 			"range": "30 ft",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 h",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -263,18 +272,19 @@
 					"DM1",
 					146
 				]
-			]
+			],
+			"ritual": false
 		},
 		"animated scroll": {
 			"id": "animated scroll",
 			"name": "Animated Scroll",
 			"name_short": "",
-			"level": "",
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "Intricately folded paper or parchment",
 			"duration": "24 h",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -289,18 +299,19 @@
 					"DM1",
 					147
 				]
-			]
+			],
+			"ritual": false
 		},
 		"anticipate attack": {
 			"id": "anticipate attack",
 			"name": "Anticipate Attack",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 reaction, which you take when you are attacked but before the attack roll is made",
@@ -315,18 +326,19 @@
 					"DM1",
 					147
 				]
-			]
+			],
+			"ritual": false
 		},
 		"anticipate weakness": {
 			"id": "anticipate weakness",
 			"name": "Anticipate Weakness",
 			"name_short": "",
-			"level": 1,
 			"range": "Self",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 1,
 			"casting_time": {
 				"short": "1 bns",
 				"base": "1 bonus action",
@@ -341,18 +353,19 @@
 					"DM1",
 					147
 				]
-			]
+			],
+			"ritual": false
 		},
 		"arcane parasite": {
 			"id": "arcane parasite",
 			"name": "Arcane Parasite",
 			"name_short": "",
-			"level": 7,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "2 h",
+			"level": 7,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -367,18 +380,19 @@
 					"DM1",
 					147
 				]
-			]
+			],
+			"ritual": true
 		},
 		"aspect of the ape": {
 			"id": "aspect of the ape",
 			"name": "Aspect of the Ape",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 hr",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -393,18 +407,19 @@
 					"DM1",
 					148
 				]
-			]
+			],
+			"ritual": false
 		},
 		"aspect of the ram": {
 			"id": "aspect of the ram",
 			"name": "Aspect of the Ram",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 10 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -419,18 +434,19 @@
 					"DM1",
 					150
 				]
-			]
+			],
+			"ritual": false
 		},
 		"aspect of the serpent": {
 			"id": "aspect of the serpent",
 			"name": "Aspect of the Serpent",
 			"name_short": "",
-			"level": 3,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "A dried snakeskin",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -446,18 +462,19 @@
 					"DM1",
 					151
 				]
-			]
+			],
+			"ritual": false
 		},
 		"avoid grevious injury": {
 			"id": "avoid grevious injury",
 			"name": "Avoid Grevious Injury",
 			"name_short": "",
-			"level": 1,
 			"range": "Self",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 1,
 			"casting_time": {
 				"short": "1 rea",
 				"base": "1 reaction, which you take when you are struck by a critical hit",
@@ -472,18 +489,19 @@
 					"DM1",
 					152
 				]
-			]
+			],
+			"ritual": false
 		},
 		"awaken object": {
 			"id": "awaken object",
 			"name": "Spell name",
 			"name_short": "",
-			"level": 8,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M†",
 			"components_material": "Ruby worth at least 1000g",
 			"duration": "Permanent",
+			"level": 8,
 			"casting_time": {
 				"short": "8 h",
 				"base": "8 hour(s)",
@@ -498,18 +516,19 @@
 					"DM1",
 					152
 				]
-			]
+			],
+			"ritual": false
 		},
 		"batsense": {
 			"id": "batsense",
 			"name": "Batsense",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "A bit of fur from a bat's ear",
 			"duration": "1 h",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -524,18 +543,19 @@
 					"DM1",
 					153
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bewilderment": {
 			"id": "bewilderment",
 			"name": "Bewilderment",
 			"name_short": "",
-			"level": "",
 			"range": "30 ft",
 			"school": "Ench",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -550,18 +570,19 @@
 					"DM1",
 					154
 				]
-			]
+			],
+			"ritual": false
 		},
 		"biting arrow": {
 			"id": "biting arrow",
 			"name": "Biting Arrow",
 			"name_short": "",
-			"level": "",
 			"range": "self",
 			"school": "Evoc",
 			"components": "V,M",
 			"components_material": "an arrow or thrown weapon",
 			"duration": "1 rnd",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -576,18 +597,19 @@
 					"DM1",
 					154
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bless the dead": {
 			"id": "bless the dead",
 			"name": "Bless the Dead",
 			"name_short": "",
-			"level": "",
 			"range": "Touch",
 			"school": "Abjur",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -602,18 +624,19 @@
 					"DM1",
 					157
 				]
-			]
+			],
+			"ritual": false
 		},
 		"blood offering": {
 			"id": "blood offering",
 			"name": "Blood Offering",
 			"name_short": "",
-			"level": 3,
 			"range": "Touch",
 			"school": "Necro",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -628,18 +651,19 @@
 					"DM1",
 					159
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bloodhound": {
 			"id": "bloodhound",
 			"name": "Bloodhound",
 			"name_short": "",
-			"level": 1,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "A drop of ammonia",
 			"duration": "8 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -655,18 +679,19 @@
 					"DM1",
 					161
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bloody smite": {
 			"id": "bloody smite",
 			"name": "Bloody Smite",
 			"name_short": "",
-			"level": 1,
 			"range": "Self",
 			"school": "Necro",
 			"components": "V",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 bns",
 				"base": "1 bonus action",
@@ -681,18 +706,19 @@
 					"DM1",
 					161
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bones of stone": {
 			"id": "bones of stone",
 			"name": "Bones of Stone",
 			"name_short": "",
-			"level": 3,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "A pebble and a sliver of bone",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -707,18 +733,19 @@
 					"DM1",
 					162
 				]
-			]
+			],
+			"ritual": false
 		},
 		"boulder toss": {
 			"id": "boulder toss",
 			"name": "Boulder Toss",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -735,18 +762,19 @@
 					"DM1",
 					163
 				]
-			]
+			],
+			"ritual": false
 		},
 		"brawn boost": {
 			"id": "brawn boost",
 			"name": "Brawn Boost",
 			"name_short": "",
-			"level": "",
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -761,18 +789,19 @@
 					"DM1",
 					164
 				]
-			]
+			],
+			"ritual": false
 		},
 		"breathtaking wind": {
 			"id": "breathtaking wind",
 			"name": "Breathtaking Wind",
 			"name_short": "",
-			"level": 1,
 			"range": "30 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -787,18 +816,19 @@
 					"DM1",
 					164
 				]
-			]
+			],
+			"ritual": false
 		},
 		"breeze compass": {
 			"id": "breeze compass",
 			"name": "Breeze compass",
 			"name_short": "",
-			"level": 3,
 			"range": "Self",
 			"school": "Div",
 			"components": "V,S,M",
 			"components_material": "A magnetized needle",
 			"duration": "Conc, 1 h",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -813,18 +843,19 @@
 					"DM1",
 					164
 				]
-			]
+			],
+			"ritual": false
 		},
 		"brittling": {
 			"id": "brittling",
 			"name": "Brittling",
 			"name_short": "",
-			"level": 4,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "An icicle",
 			"duration": "Instantaneous",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -839,18 +870,19 @@
 					"DM1",
 					164
 				]
-			]
+			],
+			"ritual": false
 		},
 		"carmellovoltas irksome preserves": {
 			"id": "carmellovoltas irksome preserves",
 			"name": "Carmello-Volta’s irksome preserves",
 			"name_short": "C.V. irksome preserves",
-			"level": 2,
 			"range": "30 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a small berry or a piece of fruit",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -865,18 +897,19 @@
 					"DM1",
 					165
 				]
-			]
+			],
+			"ritual": false
 		},
 		"caustic blood": {
 			"id": "caustic blood",
 			"name": "Caustic blood",
 			"name_short": "",
-			"level": 2,
 			"range": "S:30-ft rad",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 rea",
 				"base": "1 reaction, which you take when an enemy’s attack deals piercing or slashing damage to you",
@@ -892,18 +925,19 @@
 					"DM1",
 					166
 				]
-			]
+			],
+			"ritual": false
 		},
 		"caustic touch": {
 			"id": "caustic touch",
 			"name": "Caustic touch",
 			"name_short": "",
-			"level": "",
 			"range": "touch",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -919,18 +953,19 @@
 					"DM1",
 					166
 				]
-			]
+			],
+			"ritual": false
 		},
 		"clash of glaciers": {
 			"id": "clash of glaciers",
 			"name": "Clash of glaciers",
 			"name_short": "",
-			"level": 5,
 			"range": "S:100ft line",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a piece of cracked glass",
 			"duration": "Instantaneous",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -946,18 +981,19 @@
 					"DM1",
 					171
 				]
-			]
+			],
+			"ritual": false
 		},
 		"clumsiness": {
 			"id": "clumsiness",
 			"name": "Clumsiness",
 			"name_short": "",
-			"level": "",
 			"range": "30 ft",
 			"school": "Necro",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -972,18 +1008,19 @@
 					"DM1",
 					173
 				]
-			]
+			],
+			"ritual": false
 		},
 		"comprehend wild shape": {
 			"id": "comprehend wild shape",
 			"name": "Comprehend wild shape",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Div",
 			"components": "V,S,M",
 			"components_material": "two or more matching carved totems",
 			"duration": "1 h",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -999,18 +1036,19 @@
 					"DM1",
 					174
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure fey hound": {
 			"id": "conjure fey hound",
 			"name": "Conjure fey hound",
 			"name_short": "",
-			"level": 5,
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a wooden or metal whistle",
 			"duration": "Conc, 1 h",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1026,18 +1064,19 @@
 					"DM1",
 					174
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure forest defender": {
 			"id": "conjure forest defender",
 			"name": "Conjure Forest Defender",
 			"name_short": "",
-			"level": 6,
 			"range": "30 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "One humanoid body which the spell consumes",
 			"duration": "Until destroyed",
+			"level": 6,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1053,18 +1092,19 @@
 					"DM1",
 					174
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure mock animals": {
 			"id": "conjure mock animals",
 			"name": "Conjure Mock Animals",
 			"name_short": "",
-			"level": 1,
 			"range": "30 ft",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 10 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1079,18 +1119,19 @@
 					"DM1",
 					176
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure scarab swarm": {
 			"id": "conjure scarab swarm",
 			"name": "Conjure scarab swarm",
 			"name_short": "",
-			"level": 2,
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a beetle carapace",
 			"duration": "Conc, 10 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1105,18 +1146,19 @@
 					"DM1",
 					176
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conjure undead": {
 			"id": "conjure undead",
 			"name": "Conjure undead",
 			"name_short": "",
-			"level": 3,
 			"range": "30 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a humanoid skull",
 			"duration": "Conc, 1 h",
+			"level": 3,
 			"casting_time": {
 				"short": "1 min",
 				"base": "1 minute(s)",
@@ -1132,18 +1174,19 @@
 					"DM1",
 					177
 				]
-			]
+			],
+			"ritual": false
 		},
 		"consult the storm": {
 			"id": "consult the storm",
 			"name": "Consult the Storm",
 			"name_short": "",
-			"level": 4,
 			"range": "90 ft",
 			"school": "Div",
 			"components": "V",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1159,18 +1202,19 @@
 					"DM1",
 					177
 				]
-			]
+			],
+			"ritual": false
 		},
 		"control ice": {
 			"id": "control ice",
 			"name": "Control ice",
 			"name_short": "",
-			"level": 5,
 			"range": "300 ft",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a cube of white wax",
 			"duration": "Conc, 1 min",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1185,18 +1229,19 @@
 					"DM1",
 					177
 				]
-			]
+			],
+			"ritual": false
 		},
 		"creeping ice": {
 			"id": "creeping ice",
 			"name": "Creeping ice",
 			"name_short": "",
-			"level": 2,
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1212,18 +1257,19 @@
 					"DM1",
 					178
 				]
-			]
+			],
+			"ritual": false
 		},
 		"crushing trample": {
 			"id": "crushing trample",
 			"name": "Crushing trample",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 rd",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1238,18 +1284,19 @@
 					"DM1",
 					179
 				]
-			]
+			],
+			"ritual": false
 		},
 		"cure beast": {
 			"id": "cure beast",
 			"name": "Cure beast",
 			"name_short": "",
-			"level": 1,
 			"range": "60 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 1,
 			"casting_time": {
 				"short": "1 bns",
 				"base": "1 bonus action",
@@ -1265,18 +1312,19 @@
 					"DM1",
 					180
 				]
-			]
+			],
+			"ritual": false
 		},
 		"curse of dust": {
 			"id": "curse of dust",
 			"name": "Curse of dust",
 			"name_short": "",
-			"level": 7,
 			"range": "500 ft",
 			"school": "Necro",
 			"components": "V,S,M",
 			"components_material": "a piece of spoiled food",
 			"duration": "5 days",
+			"level": 7,
 			"casting_time": {
 				"short": "10 m",
 				"base": "10 m",
@@ -1291,18 +1339,19 @@
 					"DM1",
 					1
 				]
-			]
+			],
+			"ritual": false
 		},
 		"cynophobia": {
 			"id": "cynophobia",
 			"name": "Cynophobia",
 			"name_short": "",
-			"level": 3,
 			"range": "30 ft",
 			"school": "Ench",
 			"components": "V,S,M",
 			"components_material": "a dog's tooth",
 			"duration": "8 h",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1318,18 +1367,19 @@
 					"DM1",
 					182
 				]
-			]
+			],
+			"ritual": false
 		},
 		"dark heraldry": {
 			"id": "dark heraldry",
 			"name": "Dark Heraldry",
 			"name_short": "",
-			"level": 3,
 			"range": "60 ft",
 			"school": "Necro",
 			"components": "V",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1346,18 +1396,19 @@
 					"DM1",
 					182
 				]
-			]
+			],
+			"ritual": false
 		},
 		"decay": {
 			"id": "decay",
 			"name": "Decay",
 			"name_short": "",
-			"level": "",
 			"range": "Touch",
 			"school": "Necro",
 			"components": "V,S,M",
 			"components_material": "a handful of ash",
 			"duration": "Instantaneous",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1373,18 +1424,19 @@
 					"DM1",
 					184
 				]
-			]
+			],
+			"ritual": false
 		},
 		"decelerate": {
 			"id": "decelerate",
 			"name": "Decelerate",
 			"name_short": "",
-			"level": 2,
 			"range": "60 ft",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a toy top",
 			"duration": "1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1400,18 +1452,19 @@
 					"DM1",
 					184
 				]
-			]
+			],
+			"ritual": false
 		},
 		"deep breath": {
 			"id": "deep breath",
 			"name": "Deep breath",
 			"name_short": "",
-			"level": 1,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "2 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1427,18 +1480,19 @@
 					"DM1",
 					185
 				]
-			]
+			],
+			"ritual": false
 		},
 		"deep focus": {
 			"id": "deep focus",
 			"name": "Deep focus",
 			"name_short": "",
-			"level": 3,
 			"range": "Self",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1454,18 +1508,19 @@
 					"DM1",
 					184
 				]
-			]
+			],
+			"ritual": true
 		},
 		"defensive quills": {
 			"id": "defensive quills",
 			"name": "Defensive quills",
 			"name_short": "",
-			"level": 3,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a porcupine’s quill)",
 			"duration": "10 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1480,18 +1535,19 @@
 					"DM1",
 					184
 				]
-			]
+			],
+			"ritual": false
 		},
 		"desiccating breath": {
 			"id": "desiccating breath",
 			"name": "Desiccating breath",
 			"name_short": "",
-			"level": 4,
 			"range": "S:15-ft cone",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a clump of dried clay",
 			"duration": "Instantaneous",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1506,18 +1562,19 @@
 					"DM1",
 					186
 				]
-			]
+			],
+			"ritual": false
 		},
 		"detect dragons": {
 			"id": "detect dragons",
 			"name": "Detect dragons",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 10 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1532,18 +1589,19 @@
 					"DM1",
 					186
 				]
-			]
+			],
+			"ritual": false
 		},
 		"disruptive aura": {
 			"id": "disruptive aura",
 			"name": "Disruptive aura",
 			"name_short": "",
-			"level": 8,
 			"range": "150 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 8,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1559,18 +1617,19 @@
 					"DM1",
 					187
 				]
-			]
+			],
+			"ritual": false
 		},
 		"distraction cascade": {
 			"id": "distraction cascade",
 			"name": "Distraction cascade",
 			"name_short": "",
-			"level": 2,
 			"range": "30 ft",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 reaction, which you take when an ally declares an attack against an enemy you can see",
@@ -1585,18 +1644,19 @@
 					"DM1",
 					187
 				]
-			]
+			],
+			"ritual": false
 		},
 		"draconic smite": {
 			"id": "draconic smite",
 			"name": "Draconic smite",
 			"name_short": "",
-			"level": 1,
 			"range": "Self",
 			"school": "Evoc",
 			"components": "V",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 bns",
 				"base": "1 bonus action",
@@ -1612,18 +1672,19 @@
 					"DM1",
 					188
 				]
-			]
+			],
+			"ritual": false
 		},
 		"drown": {
 			"id": "drown",
 			"name": "Drown",
 			"name_short": "",
-			"level": 3,
 			"range": "90 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a small piece of flotsam or seaweed",
 			"duration": "Instantaneous",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1639,18 +1700,19 @@
 					"DM1",
 					189
 				]
-			]
+			],
+			"ritual": false
 		},
 		"dryads kiss": {
 			"id": "dryads kiss",
 			"name": "Dryad’s kiss",
 			"name_short": "",
-			"level": 3,
 			"range": "120 ft",
 			"school": "Conj",
 			"components": "V,M",
 			"components_material": "a flower petal or a drop of blood)",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1666,18 +1728,19 @@
 					"DM1",
 					189
 				]
-			]
+			],
+			"ritual": false
 		},
 		"ears of the bat": {
 			"id": "ears of the bat",
 			"name": "Ears of the bat",
 			"name_short": "",
-			"level": 3,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a bit of bat fur",
 			"duration": "Conc, 1 h",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1692,18 +1755,19 @@
 					"DM1",
 					190
 				]
-			]
+			],
+			"ritual": false
 		},
 		"earth wave": {
 			"id": "earth wave",
 			"name": "Earth Wave",
 			"name_short": "",
-			"level": 5,
 			"range": "S:15",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 8 h",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1718,18 +1782,19 @@
 					"DM1",
 					190
 				]
-			]
+			],
+			"ritual": false
 		},
 		"eidetic memory": {
 			"id": "eidetic memory",
 			"name": "Eidetic memory",
 			"name_short": "",
-			"level": 5,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a string tied in a knot",
 			"duration": "Conc, 1 h",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1744,18 +1809,19 @@
 					"DM1",
 					191
 				]
-			]
+			],
+			"ritual": false
 		},
 		"elemental horns": {
 			"id": "elemental horns",
 			"name": "Elemental horns",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a brass wand",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1771,18 +1837,19 @@
 					"DM1",
 					192
 				]
-			]
+			],
+			"ritual": false
 		},
 		"energy absorption": {
 			"id": "energy absorption",
 			"name": "Energy absorption",
 			"name_short": "",
-			"level": 5,
 			"range": "Touch",
 			"school": "Abjur",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1797,18 +1864,19 @@
 					"DM1",
 					193
 				]
-			]
+			],
+			"ritual": false
 		},
 		"energy foreknowledge": {
 			"id": "energy foreknowledge",
 			"name": "Energy foreknowledge",
 			"name_short": "",
-			"level": 4,
 			"range": "60 ft",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 4,
 			"casting_time": {
 				"short": "1 rea",
 				"base": "1 reaction, which you take when you are the target of a spell that deals cold, fire, force, lightning, necrotic, psychic, radiant, or thunder damage",
@@ -1824,18 +1892,19 @@
 					"DM1",
 					193
 				]
-			]
+			],
+			"ritual": false
 		},
 		"exceptional wit": {
 			"id": "exceptional wit",
 			"name": "Exceptional wit",
 			"name_short": "",
-			"level": "",
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1850,18 +1919,19 @@
 					"DM1",
 					194
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fault line": {
 			"id": "fault line",
 			"name": "Fault line",
 			"name_short": "",
-			"level": 6,
 			"range": "60 ft line",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Permanent",
+			"level": 6,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1876,18 +1946,19 @@
 					"DM1",
 					195
 				]
-			]
+			],
+			"ritual": false
 		},
 		"feather field": {
 			"id": "feather field",
 			"name": "Feather field",
 			"name_short": "",
-			"level": 1,
 			"range": "Self",
 			"school": "Abjur",
 			"components": "V,S,M",
 			"components_material": "fletching from an arrow",
 			"duration": "1 rd",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1903,18 +1974,19 @@
 					"DM1",
 					195
 				]
-			]
+			],
+			"ritual": false
 		},
 		"feather travel": {
 			"id": "feather travel",
 			"name": "Feather travel",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,M",
 			"components_material": "a feather",
 			"duration": "Conc, 1 h",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1930,18 +2002,19 @@
 					"DM1",
 					196
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fey crown": {
 			"id": "fey crown",
 			"name": "Fey Crown",
 			"name_short": "",
-			"level": 5,
 			"range": "Self",
 			"school": "Abjur",
 			"components": "V,S,M",
 			"components_material": "five flowers of different colors",
 			"duration": "1 h",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1957,18 +2030,19 @@
 					"DM1",
 					196
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fire darts": {
 			"id": "fire darts",
 			"name": "Fire darts",
 			"name_short": "",
-			"level": 2,
 			"range": "20 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "fire the size of a small campfire or larger",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -1984,18 +2058,19 @@
 					"DM1",
 					197
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fire under the tongue": {
 			"id": "fire under the tongue",
 			"name": "Fire under the tongue",
 			"name_short": "",
-			"level": 1,
 			"range": "5 ft",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "24 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2010,18 +2085,19 @@
 					"DM1",
 					197
 				]
-			]
+			],
+			"ritual": false
 		},
 		"firewalk": {
 			"id": "firewalk",
 			"name": "Firewalk ",
 			"name_short": "",
-			"level": 6,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 10 min",
+			"level": 6,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2037,18 +2113,19 @@
 					"DM1",
 					197
 				]
-			]
+			],
+			"ritual": false
 		},
 		"flurry": {
 			"id": "flurry",
 			"name": "Flurry",
 			"name_short": "",
-			"level": 1,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a fleck of quartz",
 			"duration": "1 rd",
+			"level": 1,
 			"casting_time": {
 				"short": "1 bns",
 				"base": "1 bonus action",
@@ -2063,18 +2140,19 @@
 					"DM1",
 					199
 				]
-			]
+			],
+			"ritual": false
 		},
 		"forest affinity": {
 			"id": "forest affinity",
 			"name": "Forest affinity",
 			"name_short": "",
-			"level": 1,
 			"range": "Self",
 			"school": "Illus",
 			"components": "S,M",
 			"components_material": "a raven’s feather or a bit of panther fur",
 			"duration": "Conc, 1 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2090,18 +2168,19 @@
 					"DM1",
 					199
 				]
-			]
+			],
+			"ritual": false
 		},
 		"forest native": {
 			"id": "forest native",
 			"name": "Forest native",
 			"name_short": "",
-			"level": 1,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a clump of soil from a forest",
 			"duration": "1 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2116,18 +2195,19 @@
 					"DM1",
 					199
 				]
-			]
+			],
+			"ritual": false
 		},
 		"forest of spears": {
 			"id": "forest of spears",
 			"name": "Forest of Spears",
 			"name_short": "",
-			"level": 5,
 			"range": "120 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a sliver of stone",
 			"duration": "Conc, 1 min",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2142,18 +2222,19 @@
 					"DM1",
 					199
 				]
-			]
+			],
+			"ritual": false
 		},
 		"forest sanctuary": {
 			"id": "forest sanctuary",
 			"name": "Forest sanctuary",
 			"name_short": "",
-			"level": 9,
 			"range": "300 ft",
 			"school": "Abjur",
 			"components": "V,S,M",
 			"components_material": "a bowl of fresh rainwater and a tree branch",
 			"duration": "24 h",
+			"level": 9,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2168,18 +2249,19 @@
 					"DM1",
 					200
 				]
-			]
+			],
+			"ritual": false
 		},
 		"fortitude": {
 			"id": "fortitude",
 			"name": "Fortitude",
 			"name_short": "",
-			"level": "",
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2194,18 +2276,19 @@
 					"DM1",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"frailty": {
 			"id": "frailty",
 			"name": "Frailty",
 			"name_short": "",
-			"level": "",
 			"range": "30 ft",
 			"school": "Necro",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2220,18 +2303,19 @@
 					"DM1",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"freeze potion": {
 			"id": "freeze potion",
 			"name": "Freeze potion",
 			"name_short": "",
-			"level": 1,
 			"range": "25 ft",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 1,
 			"casting_time": {
 				"short": "1 rea",
 				"base": "1 reaction, which you take when which you take when you see a creature within range about to consume a liquid",
@@ -2247,18 +2331,19 @@
 					"DM1",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"freezing fog": {
 			"id": "freezing fog",
 			"name": "Freezing fog",
 			"name_short": "",
-			"level": 3,
 			"range": "100 ft",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 5 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2274,18 +2359,19 @@
 					"DM1",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"furious hooves": {
 			"id": "furious hooves",
 			"name": "Furious hooves",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a nail",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2300,18 +2386,19 @@
 					"DM1",
 					202
 				]
-			]
+			],
+			"ritual": false
 		},
 		"gird the spirit": {
 			"id": "gird the spirit",
 			"name": "Gird the spirit",
 			"name_short": "",
-			"level": 1,
 			"range": "30 ft",
 			"school": "Abjur",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 rea",
 				"base": "1 reaction, which you take when you or a creature within 30 feet of you is hit by an attack from an undead creature",
@@ -2326,18 +2413,19 @@
 					"DM1",
 					204
 				]
-			]
+			],
+			"ritual": false
 		},
 		"glacial fog": {
 			"id": "glacial fog",
 			"name": "Glacial fog",
 			"name_short": "",
-			"level": 7,
 			"range": "100 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "crystalline statue of a polar bear worth at least 25 gp",
 			"duration": "Conc, 1 min",
+			"level": 7,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2353,18 +2441,19 @@
 					"DM1",
 					204
 				]
-			]
+			],
+			"ritual": false
 		},
 		"gliding step": {
 			"id": "gliding step",
 			"name": "Gliding step",
 			"name_short": "",
-			"level": 1,
 			"range": "Self",
 			"school": "Abjur",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "10 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2380,18 +2469,19 @@
 					"DM1",
 					205
 				]
-			]
+			],
+			"ritual": false
 		},
 		"goats hoof charm": {
 			"id": "goats hoof charm",
 			"name": "Goat’s hoof charm",
 			"name_short": "",
-			"level": 1,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a goat’s hoof",
 			"duration": "1 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2407,18 +2497,19 @@
 					"DM1",
 					205
 				]
-			]
+			],
+			"ritual": false
 		},
 		"going in circles": {
 			"id": "going in circles",
 			"name": "Going in circles",
 			"name_short": "",
-			"level": 3,
 			"range": "Sight",
 			"school": "Illus",
 			"components": "V,S,M",
 			"components_material": "a piece of the target terrain",
 			"duration": "24 h",
+			"level": 3,
 			"casting_time": {
 				"short": "10 min",
 				"base": "10 minute(s)",
@@ -2433,18 +2524,19 @@
 					"DM1",
 					206
 				]
-			]
+			],
+			"ritual": false
 		},
 		"gordolays pleasant aroma": {
 			"id": "gordolays pleasant aroma",
 			"name": "Gordolay’s pleasant aroma",
 			"name_short": "Gordo. pleasant aroma",
-			"level": 1,
 			"range": "120 ft",
 			"school": "Trans",
 			"components": "S,M",
 			"components_material": "a few flower petals or a piece of fruit, which the spell consumes",
 			"duration": "Conc, 1 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2459,18 +2551,19 @@
 					"DM1",
 					206
 				]
-			]
+			],
+			"ritual": false
 		},
 		"green mantle": {
 			"id": "green mantle",
 			"name": "Green Mantle",
 			"name_short": "",
-			"level": 1,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a plant from the surrounding terrain",
 			"duration": "1 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2486,18 +2579,19 @@
 					"DM1",
 					208
 				]
-			]
+			],
+			"ritual": false
 		},
 		"hunting stand": {
 			"id": "hunting stand",
 			"name": "Hunting Stand",
 			"name_short": "",
-			"level": 4,
 			"range": "120 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a crude model of the stand",
 			"duration": "8 h",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2512,18 +2606,19 @@
 					"DM1",
 					213
 				]
-			]
+			],
+			"ritual": false
 		},
 		"ice burn": {
 			"id": "ice burn",
 			"name": "Ice Burn",
 			"name_short": "",
-			"level": 3,
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2539,18 +2634,19 @@
 					"DM1",
 					213
 				]
-			]
+			],
+			"ritual": false
 		},
 		"illuminate spoor": {
 			"id": "illuminate spoor",
 			"name": "Illuminate Spoor",
 			"name_short": "",
-			"level": 1,
 			"range": "Touch",
 			"school": "Div",
 			"components": "V,S,M",
 			"components_material": "a firefly",
 			"duration": "Conc, 1 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2566,18 +2662,19 @@
 					"DM1",
 					215
 				]
-			]
+			],
+			"ritual": false
 		},
 		"intensify light": {
 			"id": "intensify light",
 			"name": "Intensify Light",
 			"name_short": "",
-			"level": 2,
 			"range": "S:15-ft rad",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "scale from a light drake",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2592,18 +2689,19 @@
 					"DM1",
 					218
 				]
-			]
+			],
+			"ritual": false
 		},
 		"legion of rabid squirrels": {
 			"id": "legion of rabid squirrels",
 			"name": "Legion of Rabid Squirrels",
 			"name_short": "",
-			"level": 3,
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "an acorn or nut",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2619,18 +2717,19 @@
 					"DM1",
 					223
 				]
-			]
+			],
+			"ritual": false
 		},
 		"life sense": {
 			"id": "life sense",
 			"name": "Life Sense",
 			"name_short": "",
-			"level": 3,
 			"range": "Self",
 			"school": "Div",
 			"components": "V,S,M",
 			"components_material": "a clear piece of quartz",
 			"duration": "Conc, 10 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2645,18 +2744,19 @@
 					"DM1",
 					223
 				]
-			]
+			],
+			"ritual": false
 		},
 		"looping trail": {
 			"id": "looping trail",
 			"name": "Looping Trail",
 			"name_short": "",
-			"level": 4,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a piece of rope twisted into a loop",
 			"duration": "8 h",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2671,18 +2771,19 @@
 					"DM1",
 					225
 				]
-			]
+			],
+			"ritual": false
 		},
 		"maim": {
 			"id": "maim",
 			"name": "Maim",
 			"name_short": "",
-			"level": 5,
 			"range": "Self",
 			"school": "Necro",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2697,18 +2798,19 @@
 					"DM1",
 					226
 				]
-			]
+			],
+			"ritual": false
 		},
 		"mire": {
 			"id": "mire",
 			"name": "Mire",
 			"name_short": "",
-			"level": 3,
 			"range": "100 ft",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a vial of sand mixed with water",
 			"duration": "1 h",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2723,18 +2825,19 @@
 					"DM1",
 					228
 				]
-			]
+			],
+			"ritual": false
 		},
 		"mortal insight": {
 			"id": "mortal insight",
 			"name": "Mortal Insight",
 			"name_short": "",
-			"level": 3,
 			"range": "Self",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 10 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2749,18 +2852,19 @@
 					"DM1",
 					229
 				]
-			]
+			],
+			"ritual": false
 		},
 		"natures aegis": {
 			"id": "natures aegis",
 			"name": "Nature’s aegis",
 			"name_short": "",
-			"level": 1,
 			"range": "Self",
 			"school": "Abjur",
 			"components": "V,S,M",
 			"components_material": "an area of natural vegetation",
 			"duration": "1 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2775,18 +2879,19 @@
 					"DM1",
 					230
 				]
-			]
+			],
+			"ritual": false
 		},
 		"necrotic leech": {
 			"id": "necrotic leech",
 			"name": "Necrotic leech",
 			"name_short": "",
-			"level": 5,
 			"range": "Touch",
 			"school": "Necro",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2802,18 +2907,19 @@
 					"DM1",
 					230
 				]
-			]
+			],
+			"ritual": false
 		},
 		"nightfall": {
 			"id": "nightfall",
 			"name": "Nightfall",
 			"name_short": "",
-			"level": 3,
 			"range": "100 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 10 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2828,18 +2934,19 @@
 					"DM1",
 					231
 				]
-			]
+			],
+			"ritual": true
 		},
 		"Nip at the heels": {
 			"id": "Nip at the heels",
 			"name": "Spell name",
 			"name_short": "",
-			"level": 2,
 			"range": "30 ft",
 			"school": "Illus",
 			"components": "V,S,M",
 			"components_material": "a dog’s tooth",
 			"duration": "1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2855,18 +2962,19 @@
 					"DM1",
 					231
 				]
-			]
+			],
+			"ritual": false
 		},
 		"obtuse": {
 			"id": "obtuse",
 			"name": "Obtuse",
 			"name_short": "",
-			"level": "",
 			"range": "30 ft",
 			"school": "Ench",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 min",
+			"level": 0,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2881,18 +2989,19 @@
 					"DM1",
 					232
 				]
-			]
+			],
+			"ritual": false
 		},
 		"poisoned volley": {
 			"id": "poisoned volley",
 			"name": "Poisoned Volley",
 			"name_short": "",
-			"level": 2,
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2908,18 +3017,19 @@
 					"DM1",
 					234
 				]
-			]
+			],
+			"ritual": false
 		},
 		"quench": {
 			"id": "quench",
 			"name": "Quench",
 			"name_short": "",
-			"level": 3,
 			"range": "120 ft",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a cloth soaked in water",
 			"duration": "Instantaneous",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2935,18 +3045,19 @@
 					"DM1",
 					237
 				]
-			]
+			],
+			"ritual": false
 		},
 		"quick time": {
 			"id": "quick time",
 			"name": "Quick Time",
 			"name_short": "",
-			"level": 4,
 			"range": "30 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "any seed",
 			"duration": "Instantaneous",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2962,18 +3073,19 @@
 					"DM1",
 					237
 				]
-			]
+			],
+			"ritual": false
 		},
 		"radiant beacon": {
 			"id": "radiant beacon",
 			"name": "Radiant Beacon",
 			"name_short": "",
-			"level": 5,
 			"range": "S:5-ft rad",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a piece of amber",
 			"duration": "Conc, 1 min",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -2988,18 +3100,19 @@
 					"DM1",
 					236
 				]
-			]
+			],
+			"ritual": false
 		},
 		"reaver spirit": {
 			"id": "reaver spirit",
 			"name": "Reaver Spirit",
 			"name_short": "",
-			"level": 3,
 			"range": "30 ft",
 			"school": "Ench",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3015,18 +3128,19 @@
 					"DM1",
 					239
 				]
-			]
+			],
+			"ritual": false
 		},
 		"revive beast": {
 			"id": "revive beast",
 			"name": "Spellname",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Necro",
 			"components": "V,S,M",
 			"components_material": "emeralds worth 100 gp, which the spell consumes",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3041,18 +3155,19 @@
 					"DM1",
 					240
 				]
-			]
+			],
+			"ritual": false
 		},
 		"shocking shroud": {
 			"id": "shocking shroud",
 			"name": "Shocking Shroud",
 			"name_short": "",
-			"level": 4,
 			"range": "60 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "bit of fur and a bead of amber, crystal, or glass",
 			"duration": "10 min",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3067,18 +3182,19 @@
 					"DM1",
 					249
 				]
-			]
+			],
+			"ritual": false
 		},
 		"starfall": {
 			"id": "starfall",
 			"name": "Starfall",
 			"name_short": "",
-			"level": 5,
 			"range": "60 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3094,18 +3210,19 @@
 					"DM1",
 					255
 				]
-			]
+			],
+			"ritual": false
 		},
 		"storm form": {
 			"id": "storm form",
 			"name": "Storm Form",
 			"name_short": "",
-			"level": 6,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a piece of wet wool",
 			"duration": "Conc, 10 min",
+			"level": 6,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3120,18 +3237,19 @@
 					"DM1",
 					256
 				]
-			]
+			],
+			"ritual": false
 		},
 		"storm gods doom": {
 			"id": "storm gods doom",
 			"name": "Storm God's Doom",
 			"name_short": "",
-			"level": 3,
 			"range": "60 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3147,18 +3265,19 @@
 					"DM1",
 					257
 				]
-			]
+			],
+			"ritual": false
 		},
 		"sudden dawn": {
 			"id": "sudden dawn",
 			"name": "Sudden Dawn",
 			"name_short": "",
-			"level": 3,
 			"range": "100 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 10 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3173,18 +3292,19 @@
 					"DM1",
 					257
 				]
-			]
+			],
+			"ritual": true
 		},
 		"sudden stampede": {
 			"id": "sudden stampede",
 			"name": "Sudden Stampede",
 			"name_short": "",
-			"level": 4,
 			"range": "30 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a horseshoe",
 			"duration": "Instantaneous",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3199,18 +3319,19 @@
 					"DM1",
 					257
 				]
-			]
+			],
+			"ritual": false
 		},
 		"thunderous wave": {
 			"id": "thunderous wave",
 			"name": "Thunderous wave",
 			"name_short": "",
-			"level": 3,
 			"range": "90 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3225,18 +3346,19 @@
 					"DM1",
 					262
 				]
-			]
+			],
+			"ritual": false
 		},
 		"thorn cage": {
 			"id": "thorn cage",
 			"name": "Thorn Cage",
 			"name_short": "",
-			"level": 1,
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3251,18 +3373,19 @@
 					"DM1",
 					261
 				]
-			]
+			],
+			"ritual": false
 		},
 		"tree running": {
 			"id": "tree running",
 			"name": "Spellname",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "S,M",
 			"components_material": "a maple catkin",
 			"duration": "Conc, 1 h",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3277,18 +3400,19 @@
 					"DM1",
 					267
 				]
-			]
+			],
+			"ritual": false
 		},
 		"trick question": {
 			"id": "trick question",
 			"name": "Spellname",
 			"name_short": "",
-			"level": 1,
 			"range": "30 ft",
 			"school": "Ench",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3303,18 +3427,19 @@
 					"DM1",
 					268
 				]
-			]
+			],
+			"ritual": false
 		},
 		"volley shield": {
 			"id": "volley shield",
 			"name": "Volley shield",
 			"name_short": "",
-			"level": 7,
 			"range": "Touch",
 			"school": "Abjur",
 			"components": "S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 7,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3329,18 +3454,19 @@
 					"DM1",
 					273
 				]
-			]
+			],
+			"ritual": false
 		},
 		"weilers ward": {
 			"id": "weilers ward",
 			"name": "Weiler's Ward",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a lock of hair from a fey creature",
 			"duration": "Conc, 1 h",
+			"level": 2,
 			"casting_time": {
 				"short": "1 bns",
 				"base": "1 bonus action",
@@ -3356,18 +3482,19 @@
 					"DM1",
 					276
 				]
-			]
+			],
+			"ritual": false
 		},
 		"winters radiance": {
 			"id": "winters radiance",
 			"name": "Winter’s radiance",
 			"name_short": "",
-			"level": 6,
 			"range": "400 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a piece of polished glass",
 			"duration": "Conc, 1 min",
+			"level": 6,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3382,18 +3509,19 @@
 					"DM1",
 					277
 				]
-			]
+			],
+			"ritual": false
 		},
 		"wresting wind": {
 			"id": "wresting wind",
 			"name": "Wresting Wind",
 			"name_short": "",
-			"level": 2,
 			"range": "90 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a handful of paper confetti",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3408,18 +3536,19 @@
 					"DM1",
 					279
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bark bulwark": {
 			"id": "bark bulwark",
 			"name": "Bark Bulwark",
 			"name_short": "",
-			"level": 4,
 			"range": "5 ft",
 			"school": "Abjur",
 			"components": "V,S,M",
 			"components_material": "a piece of bark",
 			"duration": "Conc, 10 min",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3434,18 +3563,19 @@
 					"DM2",
 					141
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bartholomews elemental arc": {
 			"id": "bartholomews elemental arc",
 			"name": "Bartholomew’s elemental arc",
 			"name_short": "Bart's elemental arc",
-			"level": 3,
 			"range": "10 ft",
 			"school": "Abjur",
 			"components": "S,M",
 			"components_material": "a 6-inch rod of copper",
 			"duration": "1 rd",
+			"level": 3,
 			"casting_time": {
 				"short": "1 rea",
 				"base": "1 reaction, which you take when a friendly creature within 10 feet of you would take acid, cold, fire, lightning, or thunder damage",
@@ -3460,18 +3590,19 @@
 					"DM2",
 					141
 				]
-			]
+			],
+			"ritual": false
 		},
 		"beast essence": {
 			"id": "beast essence",
 			"name": "Beast essence",
 			"name_short": "",
-			"level": 3,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a feather or bit of animal fur",
 			"duration": "1 h",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3486,18 +3617,19 @@
 					"DM1",
 					142
 				]
-			]
+			],
+			"ritual": false
 		},
 		"bitter wind": {
 			"id": "bitter wind",
 			"name": "Bitter Wind",
 			"name_short": "",
-			"level": 3,
 			"range": "Self:120-ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a birch wood fan",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3513,18 +3645,19 @@
 					"DM2",
 					143
 				]
-			]
+			],
+			"ritual": false
 		},
 		"breeze walker": {
 			"id": "breeze walker",
 			"name": "Breeze Walker",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a pheasant feather",
 			"duration": "Conc, 1 h",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3539,18 +3672,19 @@
 					"DM2",
 					146
 				]
-			]
+			],
+			"ritual": false
 		},
 		"brilliant harrier": {
 			"id": "brilliant harrier",
 			"name": "Brilliant Harrier",
 			"name_short": "",
-			"level": 2,
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a piece of charcoal",
 			"duration": "1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 bns",
 				"base": "1 bonus action",
@@ -3565,18 +3699,19 @@
 					"DM2",
 					147
 				]
-			]
+			],
+			"ritual": false
 		},
 		"burst of pollen": {
 			"id": "burst of pollen",
 			"name": "Burst of Pollen",
 			"name_short": "",
-			"level": 3,
 			"range": "Self:15-ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a petal from a white lily",
 			"duration": "Instantaneous",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3592,18 +3727,19 @@
 					"DM2",
 					148
 				]
-			]
+			],
+			"ritual": false
 		},
 		"by the light of the moon": {
 			"id": "by the light of the moon",
 			"name": "By the Light of the Moon",
 			"name_short": "",
-			"level": 2,
 			"range": "Self:30-ft",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3618,18 +3754,19 @@
 					"DM2",
 					149
 				]
-			]
+			],
+			"ritual": false
 		},
 		"by the light of the watchful moon": {
 			"id": "by the light of the watchful moon",
 			"name": "By the Light of the Watchful Moon",
 			"name_short": "By TLOT watchful moon",
-			"level": 4,
 			"range": "90 ft",
 			"school": "Div",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3644,18 +3781,19 @@
 					"DM2",
 					149
 				]
-			]
+			],
+			"ritual": false
 		},
 		"chaotic flowerfall": {
 			"id": "chaotic flowerfall",
 			"name": "Chaotic Flowerfall",
 			"name_short": "",
-			"level": 9,
 			"range": "150 ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a posy of flowers",
 			"duration": "Instantaneous",
+			"level": 9,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3670,18 +3808,19 @@
 					"DM1",
 					151
 				]
-			]
+			],
+			"ritual": false
 		},
 		"chamber of restoring amber": {
 			"id": "chamber of restoring amber",
 			"name": "Chamber of Restoring Amber",
 			"name_short": "Chamb. restoring amber",
-			"level": 4,
 			"range": "Self:15-ft",
 			"school": "Abjur",
 			"components": "V,S,M",
 			"components_material": "a piece of amber worth at least 50 gp",
 			"duration": "10 min",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3696,18 +3835,19 @@
 					"DM2",
 					151
 				]
-			]
+			],
+			"ritual": false
 		},
 		"chrysalis": {
 			"id": "chrysalis",
 			"name": "Chrysalis",
 			"name_short": "",
-			"level": 5,
 			"range": "60 ft",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a caterpillar cocoon",
 			"duration": "1 rd",
+			"level": 5,
 			"casting_time": {
 				"short": "rea",
 				"base": "1 reaction, which you take when a friendly creature you can see within 60 feet of you is reduced to 0 HP",
@@ -3722,18 +3862,19 @@
 					"DM2",
 					153
 				]
-			]
+			],
+			"ritual": false
 		},
 		"clearing the field": {
 			"id": "clearing the field",
 			"name": "Clearing the Field",
 			"name_short": "",
-			"level": 2,
 			"range": "40 ft",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 h",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3748,18 +3889,19 @@
 					"DM2",
 					153
 				]
-			]
+			],
+			"ritual": false
 		},
 		"conductive vapors": {
 			"id": "conductive vapors",
 			"name": "Conductive Vapors",
 			"name_short": "",
-			"level": 2,
 			"range": "60 ft",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3775,18 +3917,19 @@
 					"DM2",
 					155
 				]
-			]
+			],
+			"ritual": false
 		},
 		"court the flame": {
 			"id": "court the flame",
 			"name": "Court the Flame",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Abjur",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3801,18 +3944,19 @@
 					"DM2",
 					158
 				]
-			]
+			],
+			"ritual": false
 		},
 		"desolation": {
 			"id": "desolation",
 			"name": "Desolation",
 			"name_short": "",
-			"level": 8,
 			"range": "Self",
 			"school": "Necro",
 			"components": "V,S,M",
 			"components_material": "an obsidian acorn worth at least 500 gp, which is consumed in the casting",
 			"duration": "1 year",
+			"level": 8,
 			"casting_time": {
 				"short": "1 h",
 				"base": "1 hour(s)",
@@ -3827,18 +3971,19 @@
 					"DM1",
 					163
 				]
-			]
+			],
+			"ritual": false
 		},
 		"diversion door": {
 			"id": "diversion door",
 			"name": "Diversion Door",
 			"name_short": "",
-			"level": 3,
 			"range": "60 ft",
 			"school": "Abjur",
 			"components": "V,S,M",
 			"components_material": "a bundle of aromatic herbs or incense either of which must be worth at least 100 gp",
 			"duration": "24 h",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3853,18 +3998,19 @@
 					"DM2",
 					165
 				]
-			]
+			],
+			"ritual": false
 		},
 		"doom of the black river": {
 			"id": "doom of the black river",
 			"name": "Doom of the Black River",
 			"name_short": "",
-			"level": 4,
 			"range": "Self:10f rad",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "Marsh water",
 			"duration": "Instantaneous",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3879,18 +4025,19 @@
 					"DM2",
 					170
 				]
-			]
+			],
+			"ritual": false
 		},
 		"doom of the cracked shield": {
 			"id": "doom of the cracked shield",
 			"name": "Doom of the cracked shield",
 			"name_short": "Doom of Cracked Shield",
-			"level": 1,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3905,18 +4052,19 @@
 					"DM2",
 					170
 				]
-			]
+			],
+			"ritual": false
 		},
 		"dream canopy": {
 			"id": "dream canopy",
 			"name": "Dream canopy",
 			"name_short": "",
-			"level": 3,
 			"range": "Self:10ft rad",
 			"school": "Illus",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3931,18 +4079,19 @@
 					"DM2",
 					172
 				]
-			]
+			],
+			"ritual": false
 		},
 		"dreamstride": {
 			"id": "dreamstride",
 			"name": "Dreamstride",
 			"name_short": "",
-			"level": 3,
 			"range": "Self",
 			"school": "Illus",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 10 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3957,18 +4106,19 @@
 					"DM2",
 					171
 				]
-			]
+			],
+			"ritual": false
 		},
 		"electric eels": {
 			"id": "electric eels",
 			"name": "Electric eels",
 			"name_short": "",
-			"level": 4,
 			"range": "60 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "an eel's eye",
 			"duration": "Conc, 1 min",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -3983,18 +4133,19 @@
 					"DM2",
 					175
 				]
-			]
+			],
+			"ritual": false
 		},
 		"elemental exchange": {
 			"id": "elemental exchange",
 			"name": "Elemental Exchange",
 			"name_short": "",
-			"level": 3,
 			"range": "60 ft",
 			"school": "Trans",
 			"components": "S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 3,
 			"casting_time": {
 				"short": "1 rea",
 				"base": "1 reaction, which you take when a creature you can see uses a feature or casts a spell that requires a saving throw to avoid or reduce acid, cold, fire, lightning, or thunder damage",
@@ -4009,18 +4160,19 @@
 					"DM1",
 					175
 				]
-			]
+			],
+			"ritual": false
 		},
 		"elemental infusion": {
 			"id": "elemental infusion",
 			"name": "Elemental infusion",
 			"name_short": "",
-			"level": 1,
 			"range": "60 ft",
 			"school": "Trans",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 h",
+			"level": 1,
 			"casting_time": {
 				"short": "1 bns",
 				"base": "1 bonus action",
@@ -4036,18 +4188,19 @@
 					"DM2",
 					175
 				]
-			]
+			],
+			"ritual": false
 		},
 		"everans scorching serpents": {
 			"id": "everans scorching serpents",
 			"name": "Everan’s scorching serpents",
 			"name_short": "Ev's scorching serpents",
-			"level": 3,
 			"range": "60 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "A pinch of ash wrapped in snakeskin",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4063,18 +4216,19 @@
 					"DM2",
 					177
 				]
-			]
+			],
+			"ritual": false
 		},
 		"flight of ideas": {
 			"id": "flight of ideas",
 			"name": "Flight of Ideas",
 			"name_short": "",
-			"level": 3,
 			"range": "60 ft",
 			"school": "Ench",
 			"components": "V,M",
 			"components_material": "a moonstone worth 500 gp",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4090,18 +4244,19 @@
 					"DM1",
 					181
 				]
-			]
+			],
+			"ritual": false
 		},
 		"galvanize metal": {
 			"id": "galvanize metal",
 			"name": "Galvanize metal",
 			"name_short": "",
-			"level": 2,
 			"range": "60 ft",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "A piece of magnetized iron",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4117,18 +4272,19 @@
 					"DM2",
 					182
 				]
-			]
+			],
+			"ritual": false
 		},
 		"heartfire": {
 			"id": "heartfire",
 			"name": "Heartfire",
 			"name_short": "",
-			"level": 2,
 			"range": "60 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4144,18 +4300,19 @@
 					"DM2",
 					187
 				]
-			]
+			],
+			"ritual": false
 		},
 		"krails rupture": {
 			"id": "krails rupture",
 			"name": "Krail’s rupture",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Necro",
 			"components": "S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 reaction, which you take in response to being grappled or swallowed whole",
@@ -4171,18 +4328,19 @@
 					"DM2",
 					193
 				]
-			]
+			],
+			"ritual": false
 		},
 		"miniature hurricane": {
 			"id": "miniature hurricane",
 			"name": "Miniature hurricane",
 			"name_short": "",
-			"level": 3,
 			"range": "60 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a stone submerged in a jar of seawater",
 			"duration": "Conc, 1 min",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4197,18 +4355,19 @@
 					"DM2",
 					201
 				]
-			]
+			],
+			"ritual": false
 		},
 		"ominous winds": {
 			"id": "ominous winds",
 			"name": "Ominous winds",
 			"name_short": "",
-			"level": 2,
 			"range": "60 ft",
 			"school": "Ench",
 			"components": "V,S,M",
 			"components_material": "a cracked bone",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4224,18 +4383,19 @@
 					"DM2",
 					205
 				]
-			]
+			],
+			"ritual": false
 		},
 		"part clouds": {
 			"id": "part clouds",
 			"name": "Part clouds",
 			"name_short": "",
-			"level": 6,
 			"range": "Self",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "A sun-bleached wind instrument carved from wood",
 			"duration": "Conc, 1 h",
+			"level": 6,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4250,18 +4410,19 @@
 					"DM2",
 					206
 				]
-			]
+			],
+			"ritual": false
 		},
 		"radiant rosette": {
 			"id": "radiant rosette",
 			"name": "Radiant rosette",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "a dandelion stalk",
 			"duration": "Conc, 1 min",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4277,18 +4438,19 @@
 					"DM2",
 					212
 				]
-			]
+			],
+			"ritual": false
 		},
 		"rite of rain": {
 			"id": "rite of rain",
 			"name": "Rite of rain",
 			"name_short": "",
-			"level": 2,
 			"range": "Touch",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "1 h",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4303,18 +4465,19 @@
 					"DM2",
 					216
 				]
-			]
+			],
+			"ritual": true
 		},
 		"sear": {
 			"id": "sear",
 			"name": "Sear",
 			"name_short": "",
-			"level": 3,
 			"range": "S:30-ft cone",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 3,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4330,18 +4493,19 @@
 					"DM2",
 					217
 				]
-			]
+			],
+			"ritual": false
 		},
 		"seismic shift": {
 			"id": "seismic shift",
 			"name": "Seismic Shift",
 			"name_short": "",
-			"level": 4,
 			"range": "60 ft",
 			"school": "Evoc",
 			"components": "V,S,M",
 			"components_material": "a small piece of sandstone",
 			"duration": "Instantaneous",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 reaction, which you take when ",
@@ -4356,18 +4520,19 @@
 					"DM1",
 					2
 				]
-			]
+			],
+			"ritual": false
 		},
 		"servant of doom": {
 			"id": "servant of doom",
 			"name": "Servant of Doom",
 			"name_short": "",
-			"level": 4,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 4,
 			"casting_time": {
 				"short": "1 bns",
 				"base": "1 bonus action",
@@ -4382,18 +4547,19 @@
 					"DM1",
 					218
 				]
-			]
+			],
+			"ritual": false
 		},
 		"spirit balm": {
 			"id": "spirit balm",
 			"name": "Spirit balm",
 			"name_short": "",
-			"level": 2,
 			"range": "30 ft",
 			"school": "Evoc",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4409,18 +4575,19 @@
 					"DM2",
 					225
 				]
-			]
+			],
+			"ritual": false
 		},
 		"spray": {
 			"id": "spray",
 			"name": "Spray",
 			"name_short": "",
-			"level": 1,
 			"range": "self:30ft line",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Conc, 1 min",
+			"level": 1,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4436,18 +4603,19 @@
 					"DM1",
 					226
 				]
-			]
+			],
+			"ritual": false
 		},
 		"storm door": {
 			"id": "storm door",
 			"name": "Storm door",
 			"name_short": "",
-			"level": 4,
 			"range": "self",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "A piece of fulgurite",
 			"duration": "Conc, 10 min",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4463,18 +4631,19 @@
 					"DM2",
 					227
 				]
-			]
+			],
+			"ritual": false
 		},
 		"storm step": {
 			"id": "storm step",
 			"name": "Storm step",
 			"name_short": "",
-			"level": 2,
 			"range": "Self",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 2,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4490,18 +4659,19 @@
 					"DM2",
 					228
 				]
-			]
+			],
+			"ritual": false
 		},
 		"thresh the battlefield": {
 			"id": "thresh the battlefield",
 			"name": "Thresh the battlefield",
 			"name_short": "",
-			"level": 6,
 			"range": "Self:60-ft",
 			"school": "Conj",
 			"components": "V,S,M",
 			"components_material": "wheat dipped in giant's blood",
 			"duration": "Instantaneous",
+			"level": 6,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4517,18 +4687,19 @@
 					"DM2",
 					230
 				]
-			]
+			],
+			"ritual": false
 		},
 		"transmogrification": {
 			"id": "transmogrification",
 			"name": "Transmogrification",
 			"name_short": "",
-			"level": 7,
 			"range": "Self",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a bit of flesh from a fiend, or a feather from a celestial, either worth at least 50 gp",
 			"duration": "Conc, 10 min",
+			"level": 7,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4543,18 +4714,19 @@
 					"DM1",
 					231
 				]
-			]
+			],
+			"ritual": false
 		},
 		"weirding wake": {
 			"id": "weirding wake",
 			"name": "Weirding Wake",
 			"name_short": "",
-			"level": 5,
 			"range": "300 ft",
 			"school": "Conj",
 			"components": "V,S",
 			"components_material": "",
 			"duration": "Instantaneous",
+			"level": 5,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4570,18 +4742,19 @@
 					"DM1",
 					237
 				]
-			]
+			],
+			"ritual": false
 		},
 		"windblown": {
 			"id": "windblown",
 			"name": "Windblown",
 			"name_short": "",
-			"level": 4,
 			"range": "Touch",
 			"school": "Trans",
 			"components": "V,S,M",
 			"components_material": "a pinch of quail down",
 			"duration": "Conc, 1 min",
+			"level": 4,
 			"casting_time": {
 				"short": "1 a",
 				"base": "1 action",
@@ -4596,7 +4769,8 @@
 					"DM1",
 					238
 				]
-			]
+			],
+			"ritual": false
 		}
 	}
 }

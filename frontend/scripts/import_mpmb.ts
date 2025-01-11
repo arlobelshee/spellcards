@@ -2,20 +2,14 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import console from "node:console";
-
-enum CastingTime {
-	Action,
-	Bonus,
-	Reaction,
-	Long,
-}
-const Icons = { CastingTime };
+import { Icons } from "../src/boundaries/engine/data.ts";
 
 const AtHigherLevels = "MARKER_AT_HIGHER_LEVELS";
 type DestSpell = {
 	id: string;
 	name: string;
 	name_short: string;
+	level: number;
 	range: string;
 	school:
 		| "Abjur"
@@ -31,12 +25,13 @@ type DestSpell = {
 		| "Immor"
 		| "Nomad"
 		| "Wu Jen";
-	casting_time: { short: string; base: string; icon: CastingTime };
+	casting_time: { short: string; base: string; icon: Icons.CastingTime };
 	components: string;
 	components_material: string;
 	duration: string;
 	description: { short: string; base: string; upcast?: string; cantrip?: string };
 	sources: [string, number][];
+	ritual: boolean;
 };
 type DestSource = {
 	id: string;
@@ -46,7 +41,7 @@ type DestSource = {
 	url?: string;
 };
 type AllSpellsFileContents = { version: number; kind: "spell-list"; spells: Record<string, DestSpell> };
-type FilterFileKind = "character" | "source" | "class";
+type FilterFileKind = "spell-list" | "source" | "class";
 type SpellFilterFileContents = {
 	version: number;
 	kind: FilterFileKind;
@@ -93,11 +88,11 @@ type SourceSpell = {
 	source: [string, number] | [string, number][];
 	defaultExcluded?: boolean;
 	classes: string[];
+	ritual?: boolean;
 } & Record<string, unknown>;
 const KeysToKeepUnalteredForSpell = [
 	["name", "name"],
 	["nameShort", "name_short"],
-	["level", "level"],
 	["range", "range"],
 	["school", "school"],
 	["components", "components"],
@@ -195,6 +190,11 @@ function get_interesting_data(input: { spells: Record<string, SourceSpell>; sour
 			...(Object.fromEntries(
 				KeysToKeepUnalteredForSpell.map((key) => [key[1], new_spell[1][key[0]] || ""]),
 			) as ImportedSpell),
+			level: new_spell[1].level
+				? typeof new_spell[1].level === "number"
+					? new_spell[1].level
+					: Number.parseInt(new_spell[1].level as string)
+				: 0,
 			casting_time: {
 				short: new_spell[1].time,
 				base: new_spell[1].timeFull,
@@ -210,6 +210,7 @@ function get_interesting_data(input: { spells: Record<string, SourceSpell>; sour
 				new_spell[1].source.length === 2 && !Array.isArray(new_spell[1].source[0])
 					? [new_spell[1].source as [string, number]]
 					: (new_spell[1].source as [string, number][]),
+			ritual: !!new_spell[1].ritual,
 		};
 		for (const target of new_spell[1].classes) {
 			if (by_class[target]) by_class[target].push(imported_spell.id);
@@ -249,7 +250,7 @@ function get_interesting_raw_data(script: string) {
 	return results;
 }
 
-function full_casting_time_from(abbreviation: string): { base: string; icon: CastingTime } {
+function full_casting_time_from(abbreviation: string): { base: string; icon: Icons.CastingTime } {
 	if (abbreviation === "1 a") return { base: "1 action", icon: Icons.CastingTime.Action };
 	if (abbreviation === "1 bns") return { base: "1 bonus action", icon: Icons.CastingTime.Bonus };
 	if (abbreviation === "1 rea") return { base: "1 reaction", icon: Icons.CastingTime.Reaction };
