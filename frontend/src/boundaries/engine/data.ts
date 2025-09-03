@@ -1,9 +1,3 @@
-export enum CastingTime {
-	Action,
-	Bonus,
-	Reaction,
-	Long,
-}
 export namespace Icons {
 	export enum CastingTime {
 		Action,
@@ -12,6 +6,10 @@ export namespace Icons {
 		Long,
 	}
 }
+export namespace LimitedEffects {
+	export type Default = { display_as: "default" };
+};
+export type LimitedEffect = { display_as: "default" | "spell_storing" };
 export type VersionedData = { version: number; kind: "character" | "class" | "source" | "spell-list" };
 export type DataForCharacter = VersionedData & {
 	kind: "character";
@@ -54,6 +52,8 @@ export type DataForSingleSpell = {
 	description: {
 		short: string;
 		base: string;
+		upcast?: string;
+		cantrip?: string;
 	};
 	sources: (string | number)[][];
 	ritual: boolean;
